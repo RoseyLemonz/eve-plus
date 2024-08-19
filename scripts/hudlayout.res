@@ -92,12 +92,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-90"
-		"ypos"					"c88"
+		"ypos"					"c0"
 		"wide"					"800"
 		"tall"					"800"
-		
-		"xpos_minmode"			"c-90"
-		"ypos_minmode"			"c88"
 	}
 	
 	HudDemomanCharge
@@ -487,7 +484,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"r635"		//"r640"
-		"ypos"					"6"
+		"ypos"					"18"
 		"zpos"					"0"
 		"wide"					"628"
 		"tall"					"468"

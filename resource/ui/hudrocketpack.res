@@ -15,29 +15,8 @@
 
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"4"
-		"xpos_minmode"	"28"
-		"ypos"			"0"
-		"ypos_minmode"	"28"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"visible_minmode""0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"image"				"../hud/ammo_blue_bg"
-		"teambg_2"			"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"			"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"					
-	}	
-	"BG"
-	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"BG"
+		"fieldName"				"ItemEffectMeterBG"
 		"xpos"					"14"
 		"xpos_minmode"			"16"
 		"ypos"					"4"
@@ -53,9 +32,9 @@
 		"visible_minmode"		"1"
 		"enabled"				"1"
 		"fillcolor"				"0 0 0 200"
-		"PaintBackgroundType"	"0"
-	}
-	
+		"PaintBackgroundType"	"0"				
+	}	
+
 	"ChargeDetail_panel"
 	{
 		"ControlName"		"EditablePanel"
@@ -153,8 +132,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"10"
-		"ypos"			"21"
+		"xpos"			"154"
+		"ypos"			"2"
 		"ypos_minmode"	"25"
 		"zpos"			"2"
 		"wide"			"32"

@@ -1,0 +1,32 @@
+﻿"lang"
+{
+	"Language" "polish"
+	"Tokens"
+	{
+		// TF2 stuff
+		"chat_filterbutton"		"Filtry"
+		"filter_joinleave"		"Dołączenia/rozłączenia"
+		"filter_namechange"		"Zmiany nazwy"
+		"filter_publicchat"		"Czat publiczny"
+		"filter_servermsg"		"Komunikaty serwera"
+		"filter_teamchange"		"Zmiany drużyny"
+		"filter_achievement"	"Powiadomienia o osiągnięciach"
+		"chat_say"				"Mów :"
+		"chat_say_team"			"Mów (DRUŻYNA) :"
+		"chat_say_party"		"Say (PARTY) :"
+
+		// Menu Shortcuts
+        "EH_Back"               "BACK (&Q)"
+        "EH_Skip"               "SKIP (&E)"
+        "EH_Continue"           "CONTINUE (&E)"
+        "EH_Cancel"             "CANCEL (&Q)"
+        "EH_WatchIntro"         "WATCH MOVIE (&R)"
+        "EH_Checkout"           "CHECKOUT (&E)"
+        "EH_Loadout"         	"LOADOUT (&E)"
+        "EH_Random"         	"RANDOM (&R)"
+
+		// Quickplay Stuff
+		"EH_Matchmaking_HeaderQuickplay"	"Quickplay"
+        "EH_GameModeDesc_Quickplay"			"Queue into a community server hosted by players like you. (comfig quickplay)"
+    }
+}
