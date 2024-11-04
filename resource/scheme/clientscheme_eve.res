@@ -741,5 +741,16 @@ Scheme
 				"dropshadow" "1"
 			}
 		}
+		"HudMenuNumberFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"weight"	"500"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 }

@@ -34,14 +34,6 @@
 		"OnlyWhenVREnabled" "1"
 	}
 	
-	"AdvSettingsButton"
-	{
-		"label"		"#MMenu_AdvOptions"
-		"command"	"opentf2options"
-		"subimage"	"glyph_options"
-		"tooltip"	"#MMenu_OptionsHighlightPanel_Title"
-	}
-	
 	// These buttons get positioned by the MainMenuOverride.res	
 	"GeneralStoreButton2"
 	{

@@ -3,7 +3,6 @@
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
-		"collection_wide"		"500"
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
@@ -69,6 +68,7 @@
 			"start_framed"		"1"
 
 			"disable_manipulation"	"1"
+			"inventory_image_type"  "1"
 
 			"model"
 			{
@@ -94,7 +94,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%itemname%"
-			"textAlignment"	"south"
+			"textAlignment"	"center"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
@@ -117,7 +117,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-	
+		
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -161,8 +161,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"10"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -183,7 +183,7 @@
 			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"14"
-			"tall"			"13"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -315,4 +315,6 @@
 			"use_item_sounds"	"1"
 		}
 	}
+
+
 }

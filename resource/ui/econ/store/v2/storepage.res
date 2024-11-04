@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"max_cart_model_panels"	"10"
+		"max_cart_model_panels"	"14"
 		
 		"item_ypos"		"70"
 		
@@ -141,11 +141,11 @@
 		"cart_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
-			"textAlignment"	"north-east"
+			"textAlignment"	"center"
 			"xpos"			"c-61"
 			"ypos"			"32"
 			"zpos"			"15"
-			"wide"			"16"
+			"wide"			"21"
 			"tall"			"10"
 			"autoResize"	"1"
 			"pinCorner"		"0"	
@@ -279,7 +279,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-				
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -294,7 +294,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"180 170 140 255"
+			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -389,6 +389,30 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+
+	"PrevPageShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"PrevPageShortcut"
+		"wide"				"0"
+		"visible"			"1"
+		"labelText"			"&A"
+		"Command"			"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"NextPageShortcut"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"NextPageShortcut"
+		"wide"				"0"
+		"visible"			"1"
+		"labelText"			"&D"
+		"Command"			"nextpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 	
 	"PriceLabel"
 	{
@@ -717,7 +741,7 @@
 		"xpos"			"c-300"
 		"ypos"			"334"
 		"zpos"			"12"
-		"wide"			"56"
+		"wide"			"72"
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"

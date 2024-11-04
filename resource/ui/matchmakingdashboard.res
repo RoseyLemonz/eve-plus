@@ -34,70 +34,52 @@
 
 		"Gradient"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"Gradient"
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"p0.5"
-			"tall"		"f6"
-			"zpos"	"0"
-			"visible"		"1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"zpos"			"0"
+			"visible"		"0"
 			"enabled"		"1"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
+			"scaleimage"		"1"
 			"mouseinputenabled"	"0"
-			"alpha"		"0"
-
-			"image"		"gradient_pure_black"
+			"alpha"				"100"
+			"image"				"gradient_pure_black"
 		}
-		"FriendsBGPanel"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"FriendsBGPanel"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"-2"
-			"wide"					"186"
-			"tall"					"30"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"tabPosition"			"0"	
-			"fillcolor"				"30 30 30 250"
-			"PaintBackgroundType"	"0"
-		}	
+
 		"BGPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BGPanel"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"p1.1"
-			"tall"			"f5"
+			"wide"			"184"
+			"tall"			"f6"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"				"NoBorder"
+			"bgcolor_override"		"0 0 0 255"
 			"proportionaltoparent"	"1"
-			"alpha"		"0"
 		}
 
 		"OuterShadow"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"cs-0.5"
 			"zpos"			"-2"
-			"wide"			"p1.1"
-			"tall"			"p1"
-			"visible"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
-			"alpha"		"0"
 		}
 
 		"ToggleChatButton"
@@ -139,8 +121,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-2"
 				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -153,7 +135,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"42"
+			"xpos"			"40"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -174,7 +156,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"66"
+			"xpos"			"64"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -195,7 +177,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"90"
+			"xpos"			"88"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -216,7 +198,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"114"
+			"xpos"			"112"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -237,7 +219,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"138"
+			"xpos"			"136"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -258,7 +240,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"162"
+			"xpos"			"160"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -631,8 +613,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"142 28 0 255"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -666,6 +648,8 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"110"
+			"wide"			"110" [!$POSIX]
+			"wide"			"115" [$POSIX]
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -683,15 +667,15 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-			"textinsety"	"5"
-			"textinsetx"	"22"
+			"textinsety"	"2.5"
+			"textinsetx"	"26"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"142 28 0 255"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -724,7 +708,8 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"90"
+			"wide"			"90" [!$POSIX]
+			"wide"			"95" [$POSIX]
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -742,8 +727,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"22"
+			"textinsety"	"2.5"
+			"textinsetx"	"26"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -782,7 +767,8 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"115"
+			"wide"			"115" [!$POSIX]
+			"wide"			"120" [$POSIX]
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -800,8 +786,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsety"	"2.5"
+			"textinsetx"	"26"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"

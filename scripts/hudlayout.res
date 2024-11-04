@@ -339,6 +339,21 @@
 		"PaintBackgroundType"	"2"
 	}
 	
+	CurrencyStatusPanel
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-309"
+		"ypos"				"r54"
+		"zpos"				"1"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"c-284"
+		"ypos_minmode"		"r66"
+		"visible" 			"0"
+		"enabled" 			"1"
+	}
+
 	HudMannVsMachineStatus
 	{
 		"fieldName" "HudMannVsMachineStatus"
