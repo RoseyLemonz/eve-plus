@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		if_readymode
 		{
@@ -212,20 +212,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"40"
-		"zpos"				"0"
-		"wide"				"288"
-		"tall"				"25"
+		"xpos"				"9999"
+		"wide"				"9999"
 		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
 
 	"RankUpLabel"
@@ -315,7 +304,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallbold"
 			//"font_minmode"	"HudFontSmall"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 			"xpos"			"21"
 			//"xpos_minmode"	"39"
 			"ypos"			"4"
@@ -347,13 +336,12 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"42"
+		"ypos"			"6"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-
 
 		"max_size"	"19"
 
@@ -361,12 +349,12 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-10"
+		"team1_base_x"	"c-30"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c11"
-		"team2_max_expand"	"133"
+		"team2_base_x"	"c30"
+		"team2_max_expand"	"180"
 
 		"playerpanels_kv"
 		{
@@ -527,7 +515,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"HudFontSmallest"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"

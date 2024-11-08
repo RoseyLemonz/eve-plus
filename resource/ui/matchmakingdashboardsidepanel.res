@@ -40,7 +40,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
-		"xpos"		"3"
+		"xpos"		"9999"
 		"rotation"		"2"
 
 		if_left
@@ -126,7 +126,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
+		"xpos"			"9999"
 		"labelText"		"<"
 
 		if_left

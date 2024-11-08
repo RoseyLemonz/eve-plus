@@ -683,7 +683,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"20"
+		"xpos"					"c-265"
 		"xpos_minmode"			"90"
 		"ypos"					"r27"
 		"ypos_minmode"			"r36"
@@ -710,20 +710,17 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"../hud/color_panel_brown"
 			"scaleImage"			"1"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/color_panel_red"
-			"teambg_2_lodef"		"../hud/color_panel_red"
-			"teambg_3"				"../hud/color_panel_blu"
-			"teambg_3_lodef"		"../hud/color_panel_blu"
+			"image"				"../hud/objectives_timepanel_blue_bg"
+			"teambg_1"			"../hud/objectives_timepanel_blue_bg"
+			"teambg_2"			"../hud/objectives_timepanel_red_bg"
+			"teambg_3"			"../hud/objectives_timepanel_blue_bg"		
 			"proportionaltoparent"	"1"
 		
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"			"40"
+			"src_corner_width"			"40"
+			"draw_corner_width"			"0"
+			"draw_corner_height" 			"0"
 		}
 
 		"CarryingLabel"

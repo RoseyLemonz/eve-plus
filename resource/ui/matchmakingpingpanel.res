@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"PingPanel"
 		"xpos"			"-300"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"300"
-		"tall"			"f70"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 

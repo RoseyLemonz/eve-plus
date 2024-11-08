@@ -81,8 +81,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
-		"xpos"				"5"
-		"ypos"				"27"
+		"xpos"				"6"
+		"ypos"				"28"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -94,6 +94,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallest"
+		"fgcolor"			"White"
 		
 		if_match
 		{
@@ -136,6 +137,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallestBold"
+		"fgcolor"			"White"
 		
 		if_match
 		{
@@ -165,8 +167,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
-		"xpos"				"5"
-		"ypos"				"36"
+		"xpos"				"6"
+		"ypos"				"28"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -178,6 +180,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallest"
+		"fgcolor"			"White"
 		
 		if_match
 		{
@@ -207,8 +210,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
-		"xpos"				"5"
-		"ypos"				"27"
+		"xpos"				"6"
+		"ypos"				"28"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -220,6 +223,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallestBold"
+		"fgcolor"			"White"
 		
 		if_match
 		{
@@ -249,7 +253,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"5"
+		"xpos"			"6"
 		"ypos"			"36"
 		"zpos"			"5"
 		"wide"			"100"
@@ -262,6 +266,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontSmallestBold"
+		"fgcolor"		"White"
 		
 		if_match
 		{

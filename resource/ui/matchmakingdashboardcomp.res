@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CompStats"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f70"
+		"tall"			"f58"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

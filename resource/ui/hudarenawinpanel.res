@@ -430,7 +430,7 @@
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmallBold"
 		"xpos"			"-25"
-		"ypos"			"98"
+		"ypos"			"106"
 		"zpos"			"1"
 		"wide"			"442"
 		"tall"			"20"
