@@ -60,4 +60,20 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 	}
+	"Gradient"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Gradient"
+		"xpos"			"0"
+		"rotation"		"2"
+		"ypos"			"0"
+		"wide"			"30"
+		"tall"			"f0"
+		"zpos"			"1000"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"mouseinputenabled"	"0"
+		"image"		"gradient_pure_black"
+	}
 }

@@ -34,7 +34,7 @@
 	{
 		"ControlName"			"ImagePanel"		
 		"fieldName"				"CapPlayerImage"
-		"xpos"					"0"
+		"xpos"					"-1"
 		"xpos_minmode"			"0"
 		"ypos"					"0"
 		"ypos_minmode"			"0"
@@ -54,7 +54,7 @@
 		"ControlName"				"Label"
 		"fieldName"				"CapNumPlayers"
 		"font"					"HudFontSmall"
-		"xpos"					"14"
+		"xpos"					"13"
 		"xpos_minmode"			"11"
 		"ypos"					"0"
 		"ypos_minmode"			"0"

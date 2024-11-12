@@ -462,54 +462,6 @@
 			"visible"		"0"
 		}
 	}
-	
-	"HeaderBG"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"				"HeaderBG"
-		"xpos"					"c-297"
-		"xpos_minmode"			"22"
-		"ypos"					"117"
-		"ypos_minmode"			"96"
-		"zpos"					"-1"
-		"wide"					"594"
-		"wide_minmode"			"253"
-		"tall"					"10"
-		"tall_minmode"			"10"
-		"autoResize"				"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"fillcolor"				"0 0 0 100"
-		"PaintBackgroundType"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
-	"HeaderBGminmode"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"				"HeaderBGminmode"
-		"xpos_minmode"			"22"
-		"ypos_minmode"			"234"
-		"zpos"					"-1"
-		"wide_minmode"			"253"
-		"tall"					"10"
-		"autoResize"				"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"visible_minmode"			"1"
-		"enabled"				"1"
-		"fillcolor"				"0 0 0 100"
-		"PaintBackgroundType"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 
 	"ServerLabel"
 	{
@@ -661,12 +613,12 @@
 		"fieldName"				"BluePlayerList"
 		"xpos"					"c-298"
 		"xpos_minmode"			"22"
-		"ypos"					"114"		//"105"
+		"ypos"					"118"		//"105"
 		"ypos_minmode"			"93"
 		"zpos"					"20"
 		"wide"					"297"
 		"wide_minmode"			"254"
-		"tall"					"237"
+		"tall"					"235"
 		"tall_minmode"			"108"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -690,12 +642,12 @@
 		"fieldName"				"RedPlayerList"
 		"xpos"					"c1"
 		"xpos_minmode"			"22"
-		"ypos"					"114"
+		"ypos"					"118"
 		"ypos_minmode"			"231"
 		"zpos"					"20"
 		"wide"					"297"
 		"wide_minmode"			"254"
-		"tall"					"237"
+		"tall"					"235"
 		"tall_minmode"			"108"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -704,7 +656,7 @@
 		"autoresize"				"3"
 		"linespacing"				"18"
 		"linespacing_minmode"		"16"
-		"linegap"					"1"
+		"linegap"					"2"
 		"linegap_minmode"			"0"
 		"textcolor"				"red"
 		

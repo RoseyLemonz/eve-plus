@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"		"Teardrop"
-		"xpos"			"16"
+		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"21"
 		"wide"			"36"
@@ -50,7 +50,7 @@
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"		"TeardropSide"
-		"xpos"			"16"
+		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"21"
 		"wide"			"36"
@@ -90,7 +90,7 @@
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"		"Blocked"
-		"xpos"			"18"
+		"xpos"			"17"
 		"ypos"			"2"
 		"zpos"			"21"
 		"wide"			"31"

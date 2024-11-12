@@ -5,7 +5,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"-1"
-		"ypos"				"7"
+		"ypos"				"9"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -21,7 +21,7 @@
 		
 		if_match
 		{
-			"ypos"				"1"
+			"ypos"				"9"
 		}
 		
 		"TimePanelValue"
@@ -30,11 +30,12 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMediumSmallBold"
 			"fgcolor"			"White"
-			"xpos"				"32"
-			"ypos"				"4"
+			"xpos"				"30"
+			"ypos"				"6"
 			"zpos"				"3"
-			"wide"				"45"
-			"tall"				"32"
+			"wide"				"50"
+			"tall"				"25"
+			"textinsety"		"1"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
@@ -42,7 +43,7 @@
 			
 			if_match
 			{
-				"ypos"				"4"
+				"ypos"				"6"
 			}
 		}
 	}
@@ -51,7 +52,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"91"
-		"ypos"				"7"
+		"ypos"				"9"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -67,7 +68,7 @@
 		
 		if_match
 		{
-			"ypos"				"1"
+			"ypos"				"9"
 		}
 		
 		"TimePanelValue"
@@ -76,11 +77,12 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMediumSmallBold"
 			"fgcolor"			"White"
-			"xpos"				"32"
-			"ypos"				"4"
+			"xpos"				"30"
+			"ypos"				"6"
 			"zpos"				"3"
-			"wide"				"45"
-			"tall"				"32"
+			"wide"				"50"
+			"tall"				"25"
+			"textinsety"		"1"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
@@ -88,7 +90,7 @@
 			
 			if_match
 			{
-				"ypos"				"4"
+				"ypos"				"6"
 			}
 		}
 	}

@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-90"
-		"ypos"			"-5"
+		"xpos"			"c-80"
+		"ypos"			"-2"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"35"
@@ -105,8 +105,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c32"
-		"ypos"			"-5"
+		"xpos"			"c22"
+		"ypos"			"-2"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"35"
