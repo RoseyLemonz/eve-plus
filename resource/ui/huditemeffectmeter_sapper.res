@@ -68,8 +68,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"150"
-		"ypos"				"3" [!$OSX]
-		"ypos"				"4" [$OSX]
+		"ypos"				"4"
 		"zpos"					"2"
 		"wide"				"45"
 		"tall"					"15"

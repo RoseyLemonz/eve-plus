@@ -49,12 +49,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
 		"ypos"			"r24"	[$WIN32]
-		"ypos"			"r48"	[$X360]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -93,7 +90,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
 		
 		"src_corner_height"		"23"
@@ -852,8 +848,6 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -872,8 +866,6 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -907,8 +899,6 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"TanLight"	
 				"proportionalToParent"	"1"	
 			}	
@@ -927,8 +917,6 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumSmallBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}

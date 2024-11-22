@@ -1,5 +1,3 @@
-#base "../../resource/preload.res"
-
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -280,7 +278,7 @@
 		"xpos"			"cs-0.5-264"
 		"ypos"			"cs-0.5-90"
 
-		"zpos"			"-51"
+		"zpos"			"-53"
 		"wide"			"1000"
 		"tall"			"1000"
 		"visible"		"0"

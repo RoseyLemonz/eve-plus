@@ -661,7 +661,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"	//"52"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -684,7 +683,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -697,7 +695,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -734,7 +731,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

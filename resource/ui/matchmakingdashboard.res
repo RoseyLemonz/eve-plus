@@ -613,8 +613,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"192 28 0 255w"
+			"armedBgColor_override"		"182 18 0 255"
+			"defaultBgColor_override"	"122 18 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -647,9 +647,7 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"110"
-			"wide"			"110" [!$POSIX]
-			"wide"			"115" [$POSIX]
+			"wide"			"115"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -674,8 +672,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"192 28 0 255"
+			"armedBgColor_override"		"182 18 0 255"
+			"defaultBgColor_override"	"122 18 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -708,8 +706,7 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"90" [!$POSIX]
-			"wide"			"95" [$POSIX]
+			"wide"			"95"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -767,8 +764,7 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"115" [!$POSIX]
-			"wide"			"120" [$POSIX]
+			"wide"			"120"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"

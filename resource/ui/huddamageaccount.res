@@ -24,14 +24,11 @@
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c155"
 		"xpos_minmode"	"c135"
-		"ypos"			"c110" [!$OSX]
-		"ypos_minmode"	"c95" [!$OSX]
-		"ypos"			"c105" [$OSX]
-		"ypos_minmode"	"c90" [$OSX]
+		"ypos"			"c105"
+		"ypos_minmode"	"c90"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"26" [!$OSX]
-		"tall"			"36" [$OSX]
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
@@ -49,14 +46,11 @@
 		"fieldName"		"DamageAccountValueShadow"
 		"xpos"			"c157"
 		"xpos_minmode"	"c137"
-		"ypos"			"c112" [!$OSX]
-		"ypos_minmode"	"c97" [!$OSX]
-		"ypos"			"c107" [$OSX]
-		"ypos_minmode"	"c92" [$OSX]
+		"ypos"			"c107"
+		"ypos_minmode"	"c92"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"26" [!$OSX]
-		"tall"			"36" [$OSX]
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"

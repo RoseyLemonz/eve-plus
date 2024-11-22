@@ -98,8 +98,7 @@
 		"fieldName"			"ItemEffectMeterLabel"
 		"font"				"HudFontSmallest"
 		"xpos"				"149"
-		"ypos"				"0" [!$OSX]
-		"ypos"				"1" [$OSX]
+		"ypos"				"1"
 		"zpos"				"6"
 		"wide"				"46"
 		"tall"				"15"
