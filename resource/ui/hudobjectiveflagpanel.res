@@ -15,6 +15,7 @@
 		"if_hybrid"
 		{
 			"zpos"			"-1"
+			"ypos"			"-28"
 		}
 	}
 	
@@ -530,7 +531,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PoisonIcon"
 		"xpos"			"cs-0.5"
-		"ypos"			"r75"
+		"ypos"			"r118"
 		"zpos"			"6"
 		"wide"			"40"
 		"tall"			"o1"
@@ -545,7 +546,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PoisonTimeLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"r65"
+		"ypos"			"r98`"
 		"zpos"			"6"
 		"wide"			"40"
 		"tall"			"20"

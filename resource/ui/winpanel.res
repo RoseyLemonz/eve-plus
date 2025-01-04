@@ -265,7 +265,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ScoreUnderline"
-		"xpos"			"10"
+		"xpos"			"cs-0.5"
 		"ypos"			"68"
 		"zpos"			"51"
 		"wide"			"282"
@@ -276,9 +276,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"235 235 235 255"
-
-
-		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
 	}
 
 	"WinPanelBGBorder"
@@ -469,7 +467,7 @@
 	"TopPlayersLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"19"
 		"ypos"			"114"

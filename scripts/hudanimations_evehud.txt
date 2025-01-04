@@ -509,7 +509,14 @@ event RDNegativeScorePulse
 
 	//Fix chat pos
 event CompetitiveGame_LowerChatWindow { }
-event CompetitiveGame_RestoreChatWindow { }
+event CompetitiveGame_RestoreChatWindow 
+{
+	//Fix stuck animations on respawn
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
+ }
 event HudTournament_MoveChatWindow { }
 
 
