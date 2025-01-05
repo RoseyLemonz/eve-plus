@@ -58,13 +58,13 @@
 		"fieldName"				"HudKothTimeStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-100"
+		"xpos"					"cs-0.5"
 		"zpos"					"1"
-		"ypos"					"429"
-		"wide"					"200"
+		"ypos"					"20"
+		"wide"					"300"
 		"tall"					"160"
 		
-		"blue_active_xpos"		"26"
+		"blue_active_xpos"		"2s6"
 		"blue_active_xpos_minmode"	"26"
 	
 		"red_active_xpos"			"118"

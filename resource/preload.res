@@ -330,84 +330,24 @@
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
 	
-	"CPIconWhite"
+	"CPIconMann"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconWhite"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_white"
-	}
-	
-	"CPIconBlumann"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconBlumann"
+		"fieldName"		"CPIconMann"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
 	}
-	
-	"CPIconA"
+
+	"CPIconSkull"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconA"
+		"fieldName"		"CPIconSkull"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_a"
-	}
-	
-	"CPIconB"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconB"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_b"
-	}
-	
-	"CPIconC"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconC"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_c"
-	}
-	
-	"CPIconD"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconD"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_d"
-	}
-	
-	"CPIconE"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconE"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_e"
-	}
-	
-	"CPIconCapMask"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CPIconCapMask"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
+		"image"			"../sprites/obj_icons/icon_obj_blu_skull_neutral"
 	}
 	
 	"CPIconBlue1UnLock"
@@ -709,7 +649,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_neutral_locked"
 	}
-	
+
 	"ObjectiveCorePanel"
 	{
 		"ControlName"	"ImagePanel"
@@ -719,6 +659,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_corepanel_bg"
 	}
+
 	"ObjectiveCorePanelLeft"
 	{
 		"ControlName"	"ImagePanel"
@@ -728,6 +669,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_corepanel_bg_left"
 	}
+	
 	"ObjectiveCorePanelRight"
 	{
 		"ControlName"	"ImagePanel"
