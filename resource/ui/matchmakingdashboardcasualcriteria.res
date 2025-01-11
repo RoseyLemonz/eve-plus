@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
-		"ypos"			"0"
+		"ypos"			"-4"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f58"
+		"tall"			"500"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -40,7 +40,7 @@
 		"ypos"			"22"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f58"
+		"tall"			"f94"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -67,7 +67,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
+		"ypos"			"rs1-44"
 		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"

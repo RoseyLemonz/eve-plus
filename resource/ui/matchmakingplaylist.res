@@ -6,7 +6,7 @@
 		"fieldName"		"EventEntry"
 		"xpos"			"0"
 		"ypos"			"3"
-		"tall"			"50"
+		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
@@ -17,10 +17,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
-		"xpos"			"684"
-		"ypos"			"6"
-		"tall"			"50"
-		"wide"			"160"
+		"xpos"			"0"
+		"ypos"			"3"
+		"tall"			"45"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_casual"
@@ -39,10 +39,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"QuickplayEntry"
-		"xpos"			"520"
-		"ypos"			"6"
-		"tall"			"50"
-		"wide"			"160"
+		"xpos"			"0"
+		"ypos"			"53"
+		"tall"			"45"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"replay\thumbnails\menu\main_menu_button_quickplay"
@@ -60,10 +60,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
-		"xpos"			"356"
-		"ypos"			"6"
-		"tall"			"50"
-		"wide"			"160"
+		"xpos"			"0"
+		"ypos"			"103"
+		"tall"			"45"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_mvm"
@@ -82,10 +82,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
-		"xpos"			"192" 
-		"ypos"			"6"
-		"tall"			"50"
-		"wide"			"160"
+		"xpos"			"0"
+		"ypos"			"153"
+		"tall"			"45"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_competitive"
@@ -100,20 +100,21 @@
 		}
 	}
 
-	"ServerBrowserEntry"
+
+	"TrainingEntry"
 	{
 		"ControlName"	"CPlayListEntry"
-		"fieldName"		"ServerBrowserEntry"
-		"xpos"			"8"
-		"ypos"			"6"
-		"tall"			"50"
-		"wide"			"180"
+		"fieldName"		"TrainingEntry"
+		"xpos"			"0"
+		"ypos"			"203"
+		"tall"			"45"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"main_menu/main_menu_button_community_server"
-		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
-		"button_command"	"play_community"
-		"desc_token"		""
+		"image_name"		"main_menu/main_menu_button_training"
+		"button_token"		"#MMenu_PlayList_Training_Button"
+		"button_command"	"play_training"
+		"desc_token"		"#MMenu_PlayList_Training_Desc"
 
 		if_event
 		{
@@ -121,42 +122,24 @@
 		}
 	}
 
-	"CreateServerButton"
+	"ServerBrowserEntry"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"CreateServerButton"
-		"xpos"					"60"
-		"ypos"					"38"
-		"zpos"					"1"
-		"wide"					"122"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"ServerBrowserEntry"
+		"xpos"			"0"
+		"ypos"			"253"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
 
-		"SubButton"
+		"image_name"		"main_menu/main_menu_button_community_server"
+		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
+		"button_command"	"play_community"
+		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
+
+		if_event
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#MMenu_PlayList_CreateServer_Button"
-			"textinsetx"	"4"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"west"
-			"default"		"1"
-			"actionsignallevel"	"2"
-			"command"		"create_server"
-			"proportionaltoparent"	"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"1"
-			"paintbackgroundtype"	"2"
+			"ypos"			"303"
 		}
 	}
 
@@ -164,10 +147,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CreateServerEntry"
-		"xpos"			"9999"
-		"ypos"			"6"
-		"tall"			"50"
-		"wide"			"180"
+		"xpos"			"0"
+		"ypos"			"303"
+		"tall"			"45"
+		"wide"			"255"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_custom_server"
@@ -177,7 +160,7 @@
 
 		if_event
 		{
-			"ypos"			"303"
+			"ypos"			"353"
 		}
 	}
 

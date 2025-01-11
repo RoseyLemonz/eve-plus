@@ -465,7 +465,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"NoMannUpImage"
-			"xpos"			"265"
+			"xpos"			"250"
 			"ypos"			"6"
 			"zpos"			"0"
 			"wide"			"110"

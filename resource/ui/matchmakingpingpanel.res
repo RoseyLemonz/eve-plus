@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"PingPanel"
 		"xpos"			"-300"
-		"ypos"			"0"
+		"ypos"			"-4"
 		"zpos"			"1001"
 		"wide"			"300"
-		"tall"			"f0"
+		"tall"			"500"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -37,7 +37,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"13"
-		"ypos"		"25"
+		"ypos"		"30"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"25"
@@ -215,6 +215,8 @@
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
+
+		"mouseinputenabled"	"0"
 	}
 
 	"CurrentPingLabel"
@@ -222,7 +224,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"CurrentPingLabel"
 		"xpos"		"27"
-		"ypos"		"156"
+		"ypos"		"182"
 		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"20"
@@ -239,7 +241,7 @@
 		"ControlName"		"CCvarSlider"
 		"fieldName"		"PingSlider"
 		"xpos"		"rs1-8"
-		"ypos"		"170"
+		"ypos"		"158"
 		"wide"		"f40"
 		"tall"		"32"
 		"autoResize"		"0"
@@ -264,7 +266,7 @@
 		"ypos"			"200"
 		"zpos"			"100"
 		"wide"			"f37"
-		"tall"			"f220"
+		"tall"			"f240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

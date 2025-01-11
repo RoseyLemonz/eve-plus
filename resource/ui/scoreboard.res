@@ -3,11 +3,11 @@
 	"scores"
 	{
 		"ControlName"			"CTFClientScoreBoardDialog"
-		"fieldName"			"scoreinfo"
+		"fieldName"			"scores"
 		"xpos"				"c-280"
-		"ypos"				"-0"		//"-10"
+		"ypos"				"-0"		
 		"wide"				"f0"
-		"tall"				"480"		//470
+		"tall"				"480"		
 		"autoResize"			"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -34,7 +34,7 @@
 		"ypos"			"9"
 		"zpos"			"20"
 		"wide"			"60"
-		"tall"			"0"//"60"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/team_blue"
@@ -54,7 +54,7 @@
 		"ypos"			"-5"
 		"zpos"			"20"
 		"wide"			"80"
-		"tall"			"0"//"80"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/team_red"
@@ -308,7 +308,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"BlueTeamScore"
-		"font"				"HudFontMediumBig"		//"HudFontMediumBigBold"
+		"font"				"HudFontMediumBig"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"center"
 		"textAlignment_minmode""east"
@@ -334,7 +334,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"BlueTeamScoreShadow"
-		"font"				"HudFontMediumBig"		//"ScoreboardTeamNameLarge"
+		"font"				"HudFontMediumBig"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"center"
 		"textAlignment_minmode""east"
@@ -361,7 +361,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"RedTeamScore"
-		"font"				"HudFontMediumBig"		//"ScoreboardTeamNameLarge"
+		"font"				"HudFontMediumBig"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"center"
 		"textAlignment_minmode""east"
@@ -387,7 +387,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"				"RedTeamScoreShadow"
-		"font"					"HudFontMediumBig"		//"ScoreboardTeamNameLarge"
+		"font"					"HudFontMediumBig"
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"textAlignment_minmode"	"east"
@@ -610,7 +610,7 @@
 		"fieldName"				"BluePlayerList"
 		"xpos"					"c-298"
 		"xpos_minmode"			"22"
-		"ypos"					"118"		//"105"
+		"ypos"					"118"
 		"ypos_minmode"			"98"
 		"zpos"					"20"
 		"wide"					"297"
@@ -622,7 +622,7 @@
 		"enabled"				"1"
 		"tabPosition"				"0"
 		"autoresize"				"3"
-		"linespacing"				"18"	//"18"--24p		//"13"--32p
+		"linespacing"				"18"
 		"linespacing_minmode"		"16"
 		"linegap"					"1"
 		"linegap_minmode"			"0"
@@ -675,7 +675,7 @@
 		"ypos"			"406"
 		"ypos_minmode"	"431"
 		"zpos"			"4"
-		"wide"			"570"		//490
+		"wide"			"570"
 		"wide_minmode"	"500"
 		"tall"			"10"
 		"autoResize"		"0"
@@ -704,7 +704,7 @@
 		"ypos"			"407"
 		"ypos_minmode"	"432"
 		"zpos"			"3"
-		"wide"			"570"		//490
+		"wide"			"570"
 		"wide_minmode"	"500"
 		"tall"			"10"
 		"autoResize"		"0"
@@ -733,7 +733,7 @@
 		"ypos"			"417"
 		"ypos_minmode"	"442"
 		"zpos"			"4"
-		"wide"			"570"		//490
+		"wide"			"570"
 		"wide_minmode"	"500"
 		"tall"			"10"
 		"autoResize"		"0"
@@ -759,7 +759,7 @@
 		"ypos"			"418"
 		"ypos_minmode"	"443"
 		"zpos"			"4"
-		"wide"			"570"		//490
+		"wide"			"570"
 		"wide_minmode"	"500"
 		"tall"			"10"
 		"autoResize"		"0"
@@ -961,7 +961,7 @@
 		"ypos"			"185"
 		"zpos"			"10"		
 		"wide"			"130"
-		"tall"			"0"			//"260"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -2475,11 +2475,6 @@
 		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"
-		
-		if_mvm
-		{
-			//"visible"		"1"
-		}
 	}
 	"PlayerNameLabel"
 	{
@@ -2497,11 +2492,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
-		if_mvm
-		{
-			//"visible"		"1"
-		}
 	}
 	"HorizontalLine"
 	{
