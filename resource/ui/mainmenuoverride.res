@@ -2207,66 +2207,6 @@
 
 		"defaultbgcolor_override"		"128 116 103 255"
 	}
-
-	"ShowHUDOptionsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ShowHUDOptionsButton"
-		"xpos"			"c-85"
-		"ypos"			"437"
-		"zpos"			"6"
-		"tall"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"autoResize"		"0"
-			"pinCorner"			"3"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"    "EconItemBorder"
-			"border_armed"      " "
-
-			"paintbackground"   "1"
-
-			"defaultBgColor_override"	"TanDark"
-
-			"use_proportional_insets" "1"
-			"proportionaltoparent"	"1"
-
-			"defaultbgcolor_override"		"128 116 103 255"
-			"image_drawcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.46"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_hudoptions"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
 	
 	"BackToReplaysButton"
 	{

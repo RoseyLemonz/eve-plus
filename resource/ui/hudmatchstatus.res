@@ -269,7 +269,6 @@
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
 		"ypos"				"0"
-		"ypos_minmode"		"-4"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
@@ -288,7 +287,6 @@
 			"xpos"					"c-55"
 			"wide"					"130"
 			"ypos"				"-2"
-			"ypos_minmode"			"-4"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -303,32 +301,16 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallbold"
-			//"font_minmode"	"HudFontSmall"
 			"fgcolor"		"White"
 			"xpos"			"21"
-			//"xpos_minmode"	"39"
 			"ypos"			"4"
-			//"ypos_minmode"	"6"
 			"zpos"			"3"
 			"wide"			"68"
-			//"wide_minmode"	"30"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				//"proportionaltoparent"	"1"
-
-				//"xpos"			"cs-0.5"
-				//"ypos"			"9"
-				//"ypos_minmode"	"9"
-				//"tall"			"10"
-				//"font"			"HudFontSmall"
-				//"font_minmode"	"HudFontSmall"
-			}
 		}	
 	}
 	"TeamStatus"

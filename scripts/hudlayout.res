@@ -65,10 +65,8 @@
 		"tall"					"160"
 		
 		"blue_active_xpos"		"2s6"
-		"blue_active_xpos_minmode"	"26"
 	
 		"red_active_xpos"			"118"
-		"red_active_xpos_minmode"	"118"
 	}	
 
 	HudItemEffectMeter
@@ -762,9 +760,7 @@
 		"item_tall"				"16"
 		
 		"fade_in_time"			"0.06"
-		"fade_in_time_minmode"		"0.03"
-		"fade_out_time"			"0.5"
-		"fade_out_time_minmode"	"0.2"		
+		"fade_out_time"			"0.5"	
 		
 		"show_avatar"			"1"
 		"avatar_xpos"			"34"

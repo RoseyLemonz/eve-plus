@@ -95,16 +95,6 @@
 		"wrap"				"0"
 		"font"				"HudFontSmallest"
 		"fgcolor"			"White"
-		
-		if_match
-		{
-			//"proportionaltoparent"	"1"
-			//"xpos"					"0"
-			//"ypos"					"21"
-			//"ypos_minmode"			"21"
-			//"wide"					"130"
-			//"font"					"HudFontSmallestBold"
-		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -138,16 +128,6 @@
 		"wrap"				"0"
 		"font"				"HudFontSmallestBold"
 		"fgcolor"			"White"
-		
-		if_match
-		{
-			//"proportionaltoparent"	"1"
-			//"xpos"					"0"
-			//"ypos"					"21"
-			//"ypos_minmode"			"21"
-			//"wide"					"130"
-			//"font"					"HudFontSmallestBold"
-		}
 	}			
 	"OvertimeBG"
 	{
@@ -181,16 +161,6 @@
 		"wrap"				"0"
 		"font"				"HudFontSmallest"
 		"fgcolor"			"White"
-		
-		if_match
-		{
-			//"proportionaltoparent"	"1"
-			//"xpos"					"0"
-			//"ypos"					"21"
-			//"ypos_minmode"			"21"
-			//"wide"					"130"
-			//"font"					"HudFontSmallestBold"
-		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -224,16 +194,6 @@
 		"wrap"				"0"
 		"font"				"HudFontSmallestBold"
 		"fgcolor"			"White"
-		
-		if_match
-		{
-			//"proportionaltoparent"	"1"
-			//"xpos"					"0"
-			//"ypos"					"21"
-			//"ypos_minmode"			"21"
-			//"wide"					"130"
-			//"font"					"HudFontSmallestBold"
-		}
 	}	
 	"SetupBG"
 	{
@@ -267,16 +227,6 @@
 		"wrap"			"0"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
-		
-		if_match
-		{
-			//"proportionaltoparent"	"1"
-			//"xpos"					"0"
-			//"ypos"					"21"
-			//"ypos_minmode"			"21"
-			//"wide"					"130"
-			//"font"					"HudFontSmallestBold"
-		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -287,7 +237,6 @@
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
