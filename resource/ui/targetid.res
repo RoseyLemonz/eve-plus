@@ -155,13 +155,25 @@
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
 	}
-	
+
+	"KillstreakIconAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"KillstreakIconAnchor"
+		"xpos"			"cs-0.5+138"
+		"ypos"			"18"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+	}
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"53"
-		"ypos"			"19"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"11"
 		"tall"			"11"
@@ -169,6 +181,7 @@
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
+		"pin_to_sibling"	"KillstreakIconAnchor"
 	}
 	
 	"MoveableSubPanel"
@@ -249,7 +262,6 @@
 			"ControlName"		"Label"
 			"fieldName"			"MoveableKeyLabel"
 			"font"				"TFFontMedium"
-			"font_minmode"		"DefaultVerySmall"
 			"xpos"				"0"
 			"ypos"				"22"
 			"zpos"				"1"
@@ -376,7 +388,6 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
 		"ypos"			"6"
 		"zpos"			"99"
 		"wide"			"11"	//11

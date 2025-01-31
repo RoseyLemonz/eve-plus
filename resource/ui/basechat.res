@@ -7,7 +7,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"10"
-		"ypos"					"200"
+		"ypos"					"r200"
 		"wide"					"290"
 		"tall"					"108"
 		"PaintBackgroundType"	"2"
