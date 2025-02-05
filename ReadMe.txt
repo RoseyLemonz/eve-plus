@@ -1,5 +1,5 @@
 --------------------------------
-e.v.e plus v0.2 (8.11.2024)
+e.v.e plus v0.5 (5.2.2025)
 --------------------------------
 
 Created by: Rorrii (http://steamcommunity.com/id/Rorrii_)
