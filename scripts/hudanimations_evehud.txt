@@ -1,4 +1,4 @@
-//===========================================
+//==================================================================================
 
 //Health Bonus Pulse
 event HudHealthBonusPulse
@@ -39,7 +39,7 @@ event HudHealthBonusPulseStop
 	Animate	PlayerStatusHealthValueSpecT		FgColor		"white" 	Linear 0.0 0.2
 }
 
-//===========================================
+//==================================================================================
 
 //Health Dying Pulse
 event HudHealthDyingPulse
@@ -96,7 +96,7 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthValueSpecT			FgColor			"white" 	Linear 0.0 0.2
 }
 
-//===========================================
+//==================================================================================
 
 event HudLowAmmoPulse
 {
@@ -131,7 +131,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoNoClipShadow		Fgcolor		"Black"		Linear 0.0 0.1
 }
 
-//===========================================
+//==================================================================================
 
 // Local player flag pickup/drop
 event FlagOutline
@@ -151,7 +151,7 @@ event FlagOutline
 	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
 }
 
-//===========================================
+//==================================================================================
 
 // Spy Disguise
 event HudSpyDisguiseChanged
@@ -187,61 +187,7 @@ event HudSpyDisguiseFadeOut
 	//Animate PlayerStatusClassImage			Size		"0 0"			Linear 0.0 0.0
 }
 
-//===========================================
-
-
-event HudSnapShotReminderIn
-{
-	//Animate ScreenshotPanel		Position	"-200 0"	Linear 0.0 0.001
-	//Animate ScreenshotPanel		Position	"-5 0"	Spline 0.001 0.2
-	
-	//Animate ScreenshotPanel		Position	"-200 0"	Spline 2.5 0.1
-	
-	Animate ScreenshotPanel		Alpha		"0"			Linear 0.0 0.1
-	Animate ScreenshotPanel		Alpha		"255"		Linear 0.0 0.1	
-	
-	Animate ScreenshotPanel		Alpha		"0"			Linear 2.5 0.1	
-}
-event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder  // not anymore
-{
-	//Animate ReplayReminder		Position	"-200 37"	Linear 0.0 0.001
-	//Animate ReplayReminder		Position	"-5 37"	Spline 0.001 0.2
-	
-	//Animate ReplayReminder		Position	"-200 37"	Spline 2.5 0.1
-	
-	Animate ReplayReminder		Alpha		"0"			Linear 0.0 0.1
-	Animate ReplayReminder		Alpha		"255"		Linear 0.0 0.1	
-	
-	Animate ReplayReminder		Alpha		"0"			Linear 2.5 0.1
-}
-
-event HudReplayReminderIn2	// Puts the panel below the snapshot panel
-{
-	//Animate ReplayReminder		Position	"-200 37"	Linear 0.0 0.001
-	//Animate ReplayReminder		Position	"-5 37"	Spline 0.001 0.2
-	
-	//Animate ReplayReminder		Position	"-200 37"	Spline 2.5 0.1
-	
-	Animate ReplayReminder		Alpha		"0"			Linear 0.0 0.1
-	Animate ReplayReminder		Alpha		"255"		Linear 0.0 0.1	
-	
-	Animate ReplayReminder		Alpha		"0"			Linear 2.5 0.1
-}
-
-event HudTournamentSetupPanelOpen
-{
-	Animate HudTournamentSetup	Position	"c-85 -70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-85 70"	Spline 0.001 0.2
-}
-
-event HudTournamentSetupPanelClose
-{
-	Animate HudTournamentSetup	Position	"c-85 70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-85 -70"	Spline 0.001 0.2
-}
-
-
-//====================================
+//==================================================================================
 
 // Flash the medic charge hud when we have full charge
 
@@ -272,7 +218,7 @@ event HudMedicChargedStop
 	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Linear 0.0 0.0
 }
 
-//====================================
+//==================================================================================
 
 event TeamsFullArrowAnimate
 {
@@ -283,26 +229,7 @@ event TeamsFullArrowAnimate
 	RunEvent TeamsFullArrowAnimateLoop	0.8
 }
 
-//===========================================
-
-event DamagedPlayer
-{
-	StopEvent HitMarker 0.0
-	RunEvent HitMarker 0.01
-}
-event HitMarker
-{
-	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.15
-	Animate	DamageAccountValueShadow	Alpha	"255"	Linear 0.0 0.15
-	
-	Animate	DamageAccountValue			Alpha	"0"		Linear 1.85 0.1	
-	Animate	DamageAccountValueShadow	Alpha	"0"		Linear 1.85 0.1
-	
-	Animate	HitMarker		Alpha	"255"	Linear 0.0 0.05	
-	Animate	HitMarker		Alpha	"0"		Linear 0.3 0.1	
-}
-
-//===========================================
+//==================================================================================
 
 event HudReadyPulse
 {
@@ -320,179 +247,6 @@ event HudReadyPulseEnd
 	StopEvent HudReadyPulseLoop		0.0
 }
 
-//--------------------------------------------------------------------------
-
-event HudTournament_MoveTimerDown
-{
-	Animate CountdownLabel ypos 66 Linear 0 0
-	Animate CountdownLabelShadow ypos 68 Linear 0 0
-
-	SetVisible CountdownBG 0 5
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c0 Gain 0.75 0 0.4
-
-	SetVisible	TournamentConditionLabel 0 2
-
-	SetVisible CountdownLabel 0 3
-	SetVisible CountdownLabelShadow 0 3
-}
-
-event HudMatchStatus_ShowMatchStartDoors
-{
-	SetVisible	MatchDoors	1	0
-	SetVisible	BlueTeamPanel	1	0
-	SetVisible	RedTeamPanel	1	0
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-
-	Animate CountdownLabel ypos 66 Linear 0 0
-	Animate CountdownLabelShadow ypos 68 Linear 0 0
-
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c-0 Gain 0.75 0 0.4
-
-	SetVisible	HudTournamentBG 0	2
-
-	RunEventChild MatchDoors PlayDoorCloseAnim 0
-	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
-	RunEventChild MatchDoors PlayDoorOpenAnim 7
-
-	RunEvent HudTournament_AnimateTeams_In 0.25
-	RunEvent HudTournament_AnimateTeams_Out 7.70
-
-	SetVisible MatchDoors	0 9
-	SetVisible CountdownLabel 0 9.9
-	SetVisible CountdownLabelShadow 0 9.9
-
-	RunEvent HudTournament_DoorsCleanup 10
-	
-	SetVisible CountdownBG 1 11
-}
-
-event HudMatchStatus_ShowCountdown
-{
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-	Animate CountdownLabel ypos 66 Linear 0 0
-	Animate CountdownLabelShadow ypos 68 Linear 0 0
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c-0 Gain 0.75 0 0.4
-	SetVisible CountdownLabel 0 9.9
-	SetVisible CountdownLabelShadow 0 9.9
-}
-
-event HudTournament_ShowTimerCompetitive
-{
-	Animate CountdownLabel ypos 66 Linear 0 0
-	Animate CountdownLabelShadow ypos 68 Linear 0 0
-
-	SetVisible CountdownBG  1 0
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-}
-
-event HudMatchStatus_ShowMatchWinDoors_NoOpen
-{
-
-	SetVisible	MatchDoors	1	0
-	SetVisible	FrontParticlePanel	1	0
-
-	RunEventChild MatchDoors PlayDoorCloseAnim 0
-	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
-}
-
-
-event HudMatchSummary_SlideInPanels
-{
-
-	Animate BlueTeamPanel xpos 0 Accel 0.25 0.25
-	Animate RedTeamPanel xpos 0 Accel 0.25 0.25
-}
-
-event MMenu_PlayList_Expand
-{
-	//Animate ItemsContainer			ypos 420 Spline 0 0.4
-	//Animate EventPromo				ypos 470 Spline 0 0.4
-	//Animate SafeMode				ypos 470 Spline 0 0.4
-	//Animate VRBGPanel				ypos 633 Spline 0 0.4
-	//Animate VRModeButton			ypos 639 Spline 0 0.4
-	//Animate ShowPromoCodesButton	ypos 639 Spline 0 0.4
-	
-	Animate MainMenuBGPlaylists alpha 255	 Spline	0.0 0.25
-	Animate MainMenuBGPlaylists Tall 191	 Spline	0.0 0.35
-	Animate MainMenuBGPlaylists Tall 181	 Deaccel	0.35 0.15
-	
-	Animate PlayPVEButton	ypos 1000 Spline 0.30 0
-	Animate ServerBrowserButton	ypos 1000 Spline 0.30 0
-	Animate CreateServerButton	ypos 1000 Spline 0.30 0
-
-	Animate PlayListContainer Tall 275	 Spline	0.0 0.35
-	Animate PlayListContainer Tall 265	 Deaccel	0.35 0.15
-	
-	//Animate PlayListContainer Tall 240	 Spline	0.4 0.15
-	//Animate PlayListContainer Tall 265	 Spline	0.55 0.10
-	//Animate PlayListContainer Tall 255	 Spline	0.65 0.10
-	//Animate PlayListContainer Tall 265	 Deaccel 0.75 0.10
-
-	FireCommand 0 "soundentry Panel.SlideDown"
-}
-
-event MMenu_PlayList_Collapse
-{
-	//Animate ItemsContainer			ypos 160 Spline 0 0.4
-	//Animate EventPromo				ypos 210 Spline 0 0.4
-	//Animate SafeMode				ypos 210 Spline 0 0.4
-	//Animate VRBGPanel				ypos 373 Spline	0 0.4
-	//Animate VRModeButton			ypos 379 Spline 0 0.4
-	//Animate ShowPromoCodesButton	ypos 379 Spline 0 0.4
-	
-	Animate MainMenuBGPlaylists Tall 191	 Spline	0.0 0.10
-	Animate MainMenuBGPlaylists Tall 0	 Accel	0.1 0.30
-	Animate MainMenuBGPlaylists alpha 0	 Spline	0.15 0.3
-	
-	Animate PlayPVEButton	ypos 151 Spline 0 0
-	Animate ServerBrowserButton	ypos 181 Spline 0 0
-	Animate CreateServerButton	ypos 183 Spline 0 0
-	
-	Animate PlayListContainer Tall 275	 Spline	0.0 0.1
-	Animate PlayListContainer Tall 0 Accel 0.1 0.3
-
-	FireCommand 0 "soundentry Panel.SlideUp"
-}
-
-event MMenu_PlayList_Collapse_Immediate
-{
-	//Animate ItemsContainer			ypos 160 Spline 0 0
-	//Animate EventPromo				ypos 210 Spline 0 0
-	//Animate VRBGPanel				ypos 373 Spline	0 0
-	//Animate VRModeButton			ypos 379 Spline 0 0
-	//Animate ShowPromoCodesButton	ypos 379 Spline 0 0
-	
-	Animate MainMenuBGPlaylists Tall 0	 Spline	0.0 0
-	Animate MainMenuBGPlaylists alpha 0	 Spline	0.0 0
-
-	Animate PlayPVEButton	ypos 151 Spline 0 0
-	Animate ServerBrowserButton	ypos 181 Spline 0 0
-	Animate CreateServerButton	ypos 183 Spline 0 0
-
-	Animate PlayListContainer Tall 0 Spline 0 0
-}
-
-event HudTournamentSetupPanelOpen
-{
-	Animate HudTournamentSetup	Position	"c-90 -70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 90"	Spline 0.001 0.2
-}
-
-event HudTournamentSetupPanelClose
-{
-	Animate HudTournamentSetup	Position	"c-90 90"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
-}
-
 //==================================================================================
 
 event RDPositiveScorePulse
@@ -507,8 +261,11 @@ event RDNegativeScorePulse
 	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
 }
 
+//==================================================================================
+
 	//Fix chat pos
 event CompetitiveGame_LowerChatWindow { }
+
 event CompetitiveGame_RestoreChatWindow 
 {
 	//Fix stuck animations on respawn
@@ -516,9 +273,11 @@ event CompetitiveGame_RestoreChatWindow
     RunEvent HudHealthBonusPulseStop 0.1
     RunEvent HudLowAmmoPulseStop 0.1
     RunEvent HudMedicChargedStop 0.1
- }
+}
+
 event HudTournament_MoveChatWindow { }
 
+//==================================================================================
 
 event TeamStatus_PlayerDead
 {
@@ -530,5 +289,4 @@ event TeamStatus_PlayerAlive
 	SetVisible	respawntime	0	0.2
 }
 
-
-//
+//==================================================================================

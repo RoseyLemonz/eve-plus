@@ -58,26 +58,4 @@
 		"fgcolor"		"0 0 0 255"
 		"font"			"HudFontBiggerBold"
 	}
-	
-	//////////////////////// HitMarker ////////////////////////
-
-	"HitMarker"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"		"HitMarker"
-		"textAlignment"	"center"
-		"zpos"			"1"
-		"enabled"		"1"
-		"visible"		"0"
-
-		"xpos"			"c-28"
-		"ypos"			"c-25"
-		"wide"			"53"
-		"tall"			"50"
-
-		"font"			"crosshair40"
-		"labelText"		"o"
-		"fgcolor"		"255 30 30 220"
-	}
-	//////////////////////// HitMarker end ////////////////////////
 }
