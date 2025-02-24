@@ -1,10 +1,18 @@
 --------------------------------
-e.v.e plus v0.5 (5.2.2025)
+e.v.e plus v0.8 (24.2.2025)
 --------------------------------
 
-Created by: Rorrii (http://steamcommunity.com/id/Rorrii_)
+Created by: RoseyLemonz (http://steamcommunity.com/id/RoseyLemonz)
 
 e.v.e HUD by: Sinders (http://steamcommunity.com/id/sinders)
+
+--------------------------------
+Additional Credits
+--------------------------------
+
+Community HUD Fixes (https://github.com/CriticalFlaw/TF2HUD-Fixes)
+
+TF2 HUD Crosshairs (https://github.com/Hypnootize/TF2-HUD-Crosshairs)
 
 --------------------------------
 How to install

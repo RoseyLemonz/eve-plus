@@ -60,11 +60,12 @@
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"zpos"					"1"
-		"ypos"					"20"
+		"ypos"					"r50"
+		"ypos_minmode"			"r52"
 		"wide"					"300"
 		"tall"					"160"
 		
-		"blue_active_xpos"		"2s6"
+		"blue_active_xpos"		"26"
 	
 		"red_active_xpos"			"118"
 	}	
@@ -248,8 +249,8 @@
 		"fieldName"				"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-266"		//c136
-		"ypos"					"r36"		//c84
+		"xpos"					"c-276"		//c136
+		"ypos"					"r38"		//c84
 		"wide"					"500"
 		"tall"					"200"
 		

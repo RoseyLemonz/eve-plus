@@ -106,4 +106,17 @@ Scheme
 			}
 		}
 	}
+	CustomFontFiles
+	{
+		"20"
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "broeselhud Crosshairs"
+		}
+		"21"
+		{
+			"font" "resource/fonts/comic.ttf"
+			"name" "Comic Sans MS"
+		}
+	}
 }

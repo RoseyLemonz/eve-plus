@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
 		"xpos"			"3"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -21,8 +21,8 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TitleGradient"
 		"xpos"		"3"
-		"ypos"		"0"
-		"wide"		"f0"
+		"ypos"		"2"
+		"wide"		"f6"
 		"tall"		"60"
 		"zpos"	"98"
 		"visible"		"1"
@@ -40,7 +40,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
-		"xpos"		"3"
+		"xpos"		"2"
 		"rotation"		"2"
 
 		if_left
@@ -49,9 +49,9 @@
 			"rotation"		"1"
 		}
 
-		"ypos"		"0"
+		"ypos"		"2"
 		"wide"		"30"
-		"tall"		"f0"
+		"tall"		"f4"
 		"zpos"	"1000"
 		"visible"		"1"
 		"enabled"		"1"
@@ -118,6 +118,7 @@
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
+		"depressedBgColor_override"    "0 0 0 0"
 
 		"armedFgColor_override"	"Orange"
 	}
@@ -149,6 +150,7 @@
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
+		"depressedBgColor_override"    "0 0 0 0"
 
 		"armedFgColor_override"	"Orange"
 	}
@@ -161,7 +163,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"f-20"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 

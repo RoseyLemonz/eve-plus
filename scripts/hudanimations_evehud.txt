@@ -220,6 +220,7 @@ event HudMedicChargedStop
 
 //==================================================================================
 
+
 event TeamsFullArrowAnimate
 {
 	Animate TeamsFullArrow	Position	"c-80	256"		Linear	0	0

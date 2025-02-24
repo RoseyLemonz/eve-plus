@@ -139,8 +139,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"145"
-		"ypos"			"76"
+		"xpos"			"148"
+		"ypos"			"28"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"

@@ -77,11 +77,8 @@
 		"wide_minmode"	"18"
 		"tall_minmode"	"18"
 		"visible"		"1"
-		//"visible_minmode"		"0"
 		"enabled"				"1"
-		// "drawcolor"			"200 200 0"
 		"image"			"../hud/leaderboard_streak"
-		//"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
 	
@@ -166,7 +163,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmallbold"
+		"font"					"HudFontSmallbold"
 		"font_minmode"			"HudFontSmallBold"
 		"fgcolor"				"white"
 	}

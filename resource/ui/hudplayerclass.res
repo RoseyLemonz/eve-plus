@@ -1,3 +1,5 @@
+#base "../crosshairs/crosshair.res"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	"AimingGuide"
