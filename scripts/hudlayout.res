@@ -61,7 +61,7 @@
 		"xpos"					"cs-0.5"
 		"zpos"					"1"
 		"ypos"					"r50"
-		"ypos_minmode"			"r52"
+		"ypos_minmode"			"r53"
 		"wide"					"300"
 		"tall"					"160"
 		
@@ -254,8 +254,8 @@
 		"wide"					"500"
 		"tall"					"200"
 		
-		"xpos_minmode"			"c-270"
-		"ypos_minmode"			"r36"
+		"xpos_minmode"			"c-252"
+		"ypos_minmode"			"r48"
 	}
 
 	CMainTargetID
@@ -317,7 +317,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"-16"
-		"ypos"					"-31"	
+		"ypos"					"0"
 		"wide"					"640"
 		"tall"					"480"
 		
@@ -331,7 +331,7 @@
 		"enabled"				"1"
 		"xpos"					"-18"
 		"zpos"					"10"
-		"ypos"					"-35"		// spec fix
+		"ypos"					"0"
 		"wide"					"640"
 		"tall"					"480"
 		

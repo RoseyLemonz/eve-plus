@@ -21,12 +21,13 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"tall"				"0"
-		"wide"				"f0"
+		"wide"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
 		"tabPosition"		"0"
+		"alpha"				"0"
 	}
 	
 	"ShadedBar"
@@ -34,10 +35,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
-		"ypos"			"2"
+		"ypos"			"4"
 		"zpos"			"-5"
 		"wide"			"f0"
-		"tall"			"29"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -67,18 +68,6 @@
 		"font"				"HudFontSmallBold"
 		"fgcolor"			"White"
 	}	
-	"BottomBar"
-	{
-		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
-		"xpos"			"9999"
-	}
-	"BottomBarBlank"
-	{
-		"ControlName"		"Panel"
-		"fieldName"			"BottomBarBlank"
-		"xpos"				"9999"
-	}
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -96,6 +85,18 @@
 		"textAlignment"		"east"
 		"font"				"HudFontSmallBold"
 		"fgcolor_override"	"White"
+	}
+	"BottomBar"
+	{
+		"ControlName"	"Frame"
+		"fieldName"		"BottomBar"
+		"xpos"			"9999"
+	}
+	"BottomBarBlank"
+	{
+		"ControlName"		"Panel"
+		"fieldName"			"BottomBarBlank"
+		"xpos"				"9999"
 	}
 	"BuyBackLabel"
 	{

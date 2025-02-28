@@ -82,7 +82,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
 		"xpos"				"0"
-		"ypos"				"30"
+		"ypos"				"27"
 		"zpos"				"5"
 		"wide"				"110"
 		"tall"				"19"
@@ -96,26 +96,13 @@
 		"font"				"HudFontSmallest"
 		"fgcolor"			"White"
 	}			
-	"WaitingForPlayersBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"WaitingForPlayersBG"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"0"
-		"tall"				"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-	}
+
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
 		"xpos"				"0"
-		"ypos"				"30"
+		"ypos"				"27"
 		"zpos"				"5"
 		"wide"				"110"
 		"tall"				"19"
@@ -129,26 +116,13 @@
 		"font"				"HudFontSmallestBold"
 		"fgcolor"			"White"
 	}			
-	"OvertimeBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"OvertimeBG"
-		"xpos"				"9999"	
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"0"
-		"tall"				"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-	}
+
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"0"
-		"ypos"				"30"
+		"ypos"				"27"
 		"zpos"				"5"
 		"wide"				"110"
 		"tall"				"19"
@@ -162,26 +136,13 @@
 		"font"				"HudFontSmallest"
 		"fgcolor"			"White"
 	}			
-	"SuddenDeathBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"SuddenDeathBG"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"0"
-		"tall"				"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-	}	
+	
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
 		"xpos"				"0"
-		"ypos"				"30"
+		"ypos"				"27"
 		"zpos"				"5"
 		"wide"				"110"
 		"tall"				"19"
@@ -195,20 +156,7 @@
 		"font"				"HudFontSmallestBold"
 		"fgcolor"			"White"
 	}	
-	"SetupBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"SetupBG"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"0"
-		"tall"				"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-	}
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -227,7 +175,63 @@
 		"wrap"			"0"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
+	}
+	"WaitingForPlayersBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"WaitingForPlayersBG"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"1"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
 	}	
+	"OvertimeBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"OvertimeBG"
+		"xpos"				"9999"	
+		"ypos"				"9999"
+		"zpos"				"1"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
+	}
+	"SuddenDeathBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"SuddenDeathBG"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"1"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
+	}
+	"SetupBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"SetupBG"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"1"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
+	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"	"CTFImagePanel"

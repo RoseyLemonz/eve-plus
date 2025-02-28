@@ -143,8 +143,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmallbold"
-		"font_minmode"			"HudFontSmallBold"
+		"font"					"HudFontSmallbold"
 		"fgcolor"				"white"
 	}
 }

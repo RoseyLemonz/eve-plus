@@ -164,7 +164,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontSmallbold"
-		"font_minmode"			"HudFontSmallBold"
 		"fgcolor"				"white"
 	}
 }
