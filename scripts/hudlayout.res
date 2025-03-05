@@ -1018,9 +1018,6 @@
 		"wide"					"480"
 		"tall"					"640"
 		"PaintBackgroundType"	"0"
-		
-		"xpos_minmode"			"r235"
-		"ypos_minmode"			"225"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -1033,9 +1030,6 @@
 		"wide"					"480"
 		"tall"					"640"
 		"PaintBackgroundType"	"0"
-		
-		"xpos_minmode"			"r235"
-		"ypos_minmode"			"225"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -1048,9 +1042,6 @@
 		"wide"					"480"
 		"tall"					"640"
 		"PaintBackgroundType"	"0"
-		
-		"xpos_minmode"			"r235"
-		"ypos_minmode"			"225"
 	}
 	
 	"HudMenuSpyDisguise"

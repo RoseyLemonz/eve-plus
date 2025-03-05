@@ -24,7 +24,7 @@
 		"textAlignment"	"west"
 		"xpos"			"110"
 		"ypos"			"242"
-		"wide"			"290"
+		"wide"			"380"
 		"tall"			"20"
 		"fgcolor"		"white"
 	}

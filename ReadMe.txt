@@ -1,5 +1,5 @@
 --------------------------------
-e.v.e plus v0.8 (24.2.2025)
+e.v.e plus v1.0 (5.3.2025)
 --------------------------------
 
 Created by: RoseyLemonz (http://steamcommunity.com/id/RoseyLemonz)

@@ -634,10 +634,10 @@
 		"labelText"				"%mapname%"
 		"centerwrap"			"1"
 		"xpos"					"c146"
-		"ypos"					"c116"
+		"ypos"					"c120"
 		"zpos"					"3"
 		"wide"					"135"
-		"tall"					"30"
+		"tall"					"26"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -646,12 +646,11 @@
 		
 		if_mvm
 		{
-			"textAlignment"	"east"
 			"xpos"			"c76"
-			"ypos"			"c150"
+			"ypos"			"c148"
 			"wide"			"135"
 		}
-	}	
+	}		
 	"LocalPlayerStatsPanel"
 	{
 		"ControlName"	"EditablePanel"
