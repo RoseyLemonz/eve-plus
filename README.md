@@ -5,4 +5,7 @@
 <h2>Credits</h2>
 
   - <a href="https://gamebanana.com/mods/26852">e.v.e HUD</a> by <a href="https://gamebanana.com/members/522168">Sinders</a>
-  - <a href="https://gamebanana.com/mods/294682">No White Borders HUD</a> / <a href="https://gamebanana.com/mods/293211">e.v.e HUD: kleen</a> by <a href="https://gamebanana.com/members/1743093">GlimmerFlare</a>
+  - <a href="https://github.com/CriticalFlaw/TF2HUD-Fixes">Community HUD Fixes
+  - <a href="https://github.com/Hypnootize/TF2-HUD-Crosshairs">TF2 HUD Crosshairs
+
+TF2 HUD Crosshairs (https://github.com/Hypnootize/TF2-HUD-Crosshairs)
