@@ -1284,10 +1284,10 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r275"
+		"xpos"					"rs1"
 		"ypos"					"300"
 		"zpos"					"10"
-		"wide"					"270"
+		"wide"					"225"
 		"tall"					"f0"
 	}
 	

@@ -62,21 +62,6 @@
 		"icon"			"ico_demolish"
 		"iconColor"		"0 255 0 255"
 	}	
-	"DestroyIcon2"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"DestroyIcon2"
-		"xpos"			"195"
-		"ypos"			"-2"
-		"zpos"			"2"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"ico_demolish"
-		"iconColor"		"0 255 0 155"
-	}
 	
 	"TitleLabel"
 	{	

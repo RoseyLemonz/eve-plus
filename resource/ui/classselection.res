@@ -50,7 +50,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamLabelShadow"
 		"xpos"			"c12"
-		"ypos"			"54"
+		"ypos"			"55"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"24"

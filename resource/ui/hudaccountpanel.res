@@ -8,7 +8,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.2"
-		"delta_item_font"		"HudFontMediumBold"
+		"delta_item_font"		"HudFontMediumSmallBold"
 	}
 	
 	"AccountBG"

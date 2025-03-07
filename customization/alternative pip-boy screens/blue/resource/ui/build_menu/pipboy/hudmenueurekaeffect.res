@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 
-		"image"			"/logos/pipboy/pipboy_overlay_blue"
+		"image"			"replay/thumbnails/pipboy/pipboy_overlay_blue"
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}

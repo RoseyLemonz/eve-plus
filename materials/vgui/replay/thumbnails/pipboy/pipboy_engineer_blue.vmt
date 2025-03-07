@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\pipboy\pipboy_engineer_blue"
+	"$basetexture" "vgui\logos\pipboy\pipboy_engineer_blue"
 	"$translucent" 1
 	"$ignorez" 1
 	"$vertexcolor" 1
