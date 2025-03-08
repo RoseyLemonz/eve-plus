@@ -50,7 +50,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"148"
+		"font"					"FontStoreOriginalPrice"
+		"xpos"					"150"
 		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"46"
@@ -65,7 +66,6 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"ScoreboardSmall"
 	}
 
 	"ItemEffectMeter"

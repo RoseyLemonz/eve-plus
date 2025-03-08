@@ -1,4 +1,4 @@
-"Resource/UI/Meter/HudItemEffectMeter_Primary.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,17 +7,27 @@
 		"enabled"		"1"
 		"xpos"			"c130"
 		"xpos_minmode"	"c110"
-		"ypos"			"r100"
-		"ypos_minmode"	"r115"
+		"ypos"			"r26"
+		"ypos_minmode"	"r40"
 		"wide"			"220"
-		"tall"			"20"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
 	"ItemEffectMeterBG"
 	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"wide"			"0"
+		"tall"	 		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"BG"
+	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
+		"fieldName"				"BG"
 		"xpos"					"14"
 		"xpos_minmode"			"16"
 		"ypos"					"4"
@@ -39,11 +49,12 @@
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
 		"font"					"FontStoreOriginalPrice"
 		"xpos"					"150"
 		"ypos"					"3"
 		"zpos"					"2"
-		"wide"					"38"
+		"wide"					"46"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -53,10 +64,8 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"west"
-		"allcaps"				"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontSmallest"
 	}
 
 	"ItemEffectMeter"
@@ -72,60 +81,35 @@
 		"tall"			"8"
 	}
 	
-	"ChargeColor_25"
+	"ChargeDetail_panel"
 	{
-		"controlName"		"ImagePanel"
-		"fieldName"			"ChargeColor_25"
-		"xpos"				"16"
-		"ypos"				"12"
+		"ControlName"		"EditablePanel"
+		"fieldname"			"ChargeDetail_panel"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"12"
-		"wide"				"32"
-		"tall"				"2"
+		"wide"				"146"
+		"tall"				"20"
 		"visible"			"1"
-		"visible_minmode"	"0"
-		"enabled"			"1"
-		"fillcolor"			"130 130 130 255"
+		
+		"arrows1"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"arrows1"
+			"font"			"HudFontsmall"
+			"labelText"		"\\    \\    \\    \\    \\    \\    \\    \\    \\    \\"
+			"textAlignment"	"west"
+			"xpos"			"26"
+			"xpos_minmode"	"26"
+			"ypos"			"0"
+			"zpos"			"13"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"0 0 0 200"
+		}
 	}
-	"ChargeColor_50"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"			"ChargeColor_50"
-		"xpos"				"48"
-		"ypos"				"12"
-		"zpos"				"13"
-		"wide"				"32"
-		"tall"				"2"
-		"visible"			"1"
-		"visible_minmode"	"0"
-		"enabled"			"1"
-		"fillcolor"			"160 160 160 255"
-	}	
-	"ChargeColor_75"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"			"ChargeColor_75"
-		"xpos"				"80"
-		"ypos"				"12"
-		"zpos"				"14"
-		"wide"				"32"
-		"tall"				"2"
-		"visible"			"1"
-		"visible_minmode"	"0"
-		"enabled"			"1"
-		"fillcolor"			"190 190 190 255"
-	}	
-	"ChargeColor_100"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"			"ChargeColor_100"
-		"xpos"				"112"
-		"ypos"				"12"
-		"zpos"				"15"
-		"wide"				"34"
-		"tall"				"2"
-		"visible"			"1"
-		"visible_minmode"	"0"
-		"enabled"			"1"
-		"fillcolor"			"255 255 255 255"
-	}	
 }
