@@ -13,8 +13,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"medal_width"			"0"
-		"medal_column_width" 	"0"
+		"medal_width"			"12"
+		"medal_column_width" 	"18"
 		"avatar_width"			"28"
 		"spacer"				"5"
 		"name_width"			"140"
@@ -24,7 +24,6 @@
 		"ping_width"			"20"
 		"killstreak_width"		"18"
 		"killstreak_image_width"	"15"
-		"medal_width_minmode"		"0"
 	}
 	"BlueMainBG"
 	{
