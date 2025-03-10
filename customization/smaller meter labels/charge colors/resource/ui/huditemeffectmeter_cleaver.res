@@ -1,4 +1,4 @@
-"Resource/UI/Meter/HudItemEffectMeter_Main.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c130"
 		"xpos_minmode"	"c110"
-		"ypos"			"r85"
-		"ypos_minmode"	"r100"
+		"ypos"			"r26"
+		"ypos_minmode"	"r40"
 		"wide"			"220"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -16,8 +16,18 @@
 	}
 	"ItemEffectMeterBG"
 	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"wide"			"0"
+		"tall"	 		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"BG"
+	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
+		"fieldName"				"BG"
 		"xpos"					"14"
 		"xpos_minmode"			"16"
 		"ypos"					"4"
@@ -35,37 +45,36 @@
 		"fillcolor"				"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ItemEffectMeterLabel"
-		"font"				"HudFontSmallest"
-		"xpos"				"150"
-		"ypos"				"3"
-		"zpos"				"6"
-		"wide"				"38"
-		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"visible_minmode"	"0"
-		"enabled"			"1"
-		"tabPosition"		"5"
-		"labelText"			"#TF_Ball"
-		"textAlignment"		"west"
-		"allcaps"			"1"
-		"dulltext"			"0"
-		"brighttext"		"1"
-		"fgcolor" 			"255 255 255 255"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"font"					"FontStoreOriginalPrice"
+		"xpos"					"150"
+		"ypos"					"3"
+		"zpos"					"2"
+		"wide"					"46"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"visible_minmode"		"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_ENERGYDRINK"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
 	}
+
 	"ItemEffectMeter"
 	{		
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"xpos"			"16"
 		"ypos"			"6"
 		"wide"			"130"
@@ -84,7 +93,7 @@
 		"visible"			"1"
 		"visible_minmode"	"0"
 		"enabled"			"1"
-		"fillcolor"			"130 130 130 255"
+		"fillcolor"			"158 158 158 255"
 	}
 	"ChargeColor_50"
 	{
@@ -98,7 +107,7 @@
 		"visible"			"1"
 		"visible_minmode"	"0"
 		"enabled"			"1"
-		"fillcolor"			"160 160 160 255"
+		"fillcolor"			"188 129 128 255"
 	}	
 	"ChargeColor_75"
 	{
@@ -112,7 +121,7 @@
 		"visible"			"1"
 		"visible_minmode"	"0"
 		"enabled"			"1"
-		"fillcolor"			"190 190 190 255"
+		"fillcolor"			"219 97 97 255"
 	}	
 	"ChargeColor_100"
 	{
@@ -126,6 +135,38 @@
 		"visible"			"1"
 		"visible_minmode"	"0"
 		"enabled"			"1"
-		"fillcolor"			"255 255 255 255"
+		"fillcolor"			"254 69 61 255"
 	}	
+	
+	"ChargeDetail_panel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"ChargeDetail_panel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"12"
+		"wide"				"146"
+		"tall"				"20"
+		"visible"			"1"
+		
+		"arrows1"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"arrows1"
+			"font"			"HudFontsmall"
+			"labelText"		"\\    \\    \\    \\    \\    \\    \\    \\    \\    \\"
+			"textAlignment"	"west"
+			"xpos"			"26"
+			"xpos_minmode"	"26"
+			"ypos"			"0"
+			"zpos"			"13"
+			"wide"			"200"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"0 0 0 200"
+		}
+	}
 }

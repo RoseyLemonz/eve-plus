@@ -50,7 +50,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"font"					"FontStoreOriginalPrice"
+		"font"					"HudFontSmallest"
 		"xpos"					"150"
 		"ypos"					"3"
 		"zpos"					"2"

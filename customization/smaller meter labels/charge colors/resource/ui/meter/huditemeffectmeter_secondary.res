@@ -1,4 +1,4 @@
-"Resource/UI/Meter/HudItemEffectMeter_Main.res"
+"Resource/UI/Meter/HudItemEffectMeter_Secondary.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c130"
 		"xpos_minmode"	"c110"
-		"ypos"			"r85"
-		"ypos_minmode"	"r100"
+		"ypos"			"r26"
+		"ypos_minmode"	"r40"
 		"wide"			"220"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -16,8 +16,18 @@
 	}
 	"ItemEffectMeterBG"
 	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"wide"			"0"
+		"tall"	 		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"BG"
+	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
+		"fieldName"				"BG"
 		"xpos"					"14"
 		"xpos_minmode"			"16"
 		"ypos"					"4"
@@ -35,37 +45,37 @@
 		"fillcolor"				"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ItemEffectMeterLabel"
-		"font"				"HudFontSmallest"
-		"xpos"				"150"
-		"ypos"				"3"
-		"zpos"				"6"
-		"wide"				"38"
-		"tall"				"15"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"visible_minmode"	"0"
-		"enabled"			"1"
-		"tabPosition"		"5"
-		"labelText"			"#TF_Ball"
-		"textAlignment"		"west"
-		"allcaps"			"1"
-		"dulltext"			"0"
-		"brighttext"		"1"
-		"fgcolor" 			"255 255 255 255"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"font"					"FontStoreOriginalPrice"
+		"xpos"					"150"
+		"ypos"					"3"
+		"zpos"					"2"
+		"wide"					"38"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"visible_minmode"		"0"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_ENERGYDRINK"
+		"textAlignment"			"west"
+		"allcaps"				"1"
+		"dulltext"				"0"
+		"brighttext"			"0"
 	}
+
 	"ItemEffectMeter"
 	{		
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"xpos"			"16"
 		"ypos"			"6"
 		"wide"			"130"
