@@ -132,7 +132,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"154"
+		"xpos"			"152"
 		"ypos"			"2"
 		"ypos_minmode"	"25"
 		"zpos"			"2"

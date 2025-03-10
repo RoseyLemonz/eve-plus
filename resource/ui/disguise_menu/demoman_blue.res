@@ -6,6 +6,11 @@
 	{
 		"image"			"../hud/class_demoblue"
 	}
+
+	"NewNumberLabel"
+	{	
+		"labelText"		"4"
+	}
 	
 	"NumberLabel"
 	{	

@@ -7,6 +7,11 @@
 		"image"			"../hud/class_pyrored"
 	}
 	
+	"NewNumberLabel"
+	{	
+		"labelText"		"3"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"3"

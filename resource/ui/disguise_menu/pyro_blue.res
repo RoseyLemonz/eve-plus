@@ -7,6 +7,11 @@
 		"image"			"../hud/class_pyroblue"
 	}
 	
+	"NewNumberLabel"
+	{	
+		"labelText"		"3"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"3"

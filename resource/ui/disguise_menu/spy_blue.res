@@ -6,6 +6,12 @@
 	{
 		"image"			"../hud/class_spyblue"
 	}
+
+	"NewNumberLabel"
+	{	
+		"labelText"		"9"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"9"

@@ -7,6 +7,11 @@
 		"image"			"../hud/class_engiblue"
 	}
 
+	"NewNumberLabel"
+	{	
+		"labelText"		"6"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"6"

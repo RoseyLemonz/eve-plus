@@ -6,6 +6,12 @@
 	{
 		"image"			"../hud/class_soldierblue"
 	}
+
+	"NewNumberLabel"
+	{	
+		"labelText"		"2"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"2"

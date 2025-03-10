@@ -7,6 +7,11 @@
 		"image"			"../hud/class_demored"
 	}
 
+	"NewNumberLabel"
+	{	
+		"labelText"		"4"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"4"

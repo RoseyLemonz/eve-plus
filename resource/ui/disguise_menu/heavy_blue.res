@@ -7,6 +7,11 @@
 		"image"			"../hud/class_heavyblue"
 	}
 	
+	"NewNumberLabel"
+	{	
+		"labelText"		"5"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"5"

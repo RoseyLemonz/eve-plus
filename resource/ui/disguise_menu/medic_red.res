@@ -7,6 +7,11 @@
 		"image"			"../hud/class_medicred"
 	}
 
+	"NewNumberLabel"
+	{	
+		"labelText"		"7"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"7"

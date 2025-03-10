@@ -6,6 +6,12 @@
 	{
 		"image"			"../hud/class_sniperred"
 	}
+
+	"NewNumberLabel"
+	{	
+		"labelText"		"8"
+	}
+
 	"NumberLabel"
 	{	
 		"labelText"		"8"
