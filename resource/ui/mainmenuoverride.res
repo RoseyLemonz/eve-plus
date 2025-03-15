@@ -499,7 +499,7 @@
 		"xpos"					"c-288"
 		"ypos"					"434"
 		"zpos"					"0"
-		"wide"					"320"
+		"wide"					"290"
 		"tall"					"31"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -1343,7 +1343,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c75"
+		"xpos"			"c95"
 		"ypos"			"352"
 		"zpos"			"2"
 		"wide"			"40"
@@ -1400,7 +1400,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c165"
+		"xpos"			"c185"
 		"ypos"			"352"
 		"zpos"			"2"
 		"wide"			"40"
@@ -1457,7 +1457,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c120"
+		"xpos"			"c140"
 		"ypos"			"352"
 		"zpos"			"2"
 		"wide"			"40"
@@ -1510,72 +1510,14 @@
 			}				
 		}
 	}
-	"RequestCoachButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"c210"
-		"ypos"			"362"
-		"zpos"			"2"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-				
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labeltext"		""
-			"use_proportional_insets" "1"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-
-			"paintbackground"	"0"
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-			}				
-		}
-	}
-
 	"InGameButtonBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"InGameButtonBG"
-		"xpos"			"c72"
+		"xpos"			"c92"
 		"ypos"			"350"
 		"zpos"			"1"
-		"wide"			"171"
+		"wide"			"136"
 		"tall"			"44"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -2371,55 +2313,11 @@
 		}				
 	}		
 	
-	"CoachPlayersButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-195"
-		"ypos"			"437"
-		"zpos"			"5"
-		"wide"			"25"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-
-		"Command"		"engine cl_coach_toggle"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultbgcolor_override"		"128 116 103 255"
-		"image_drawcolor"	"235 226 202 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_commentary"
-			"scaleImage"	"1"
-		}				
-	}		
-	
 	"ReportBugButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-165"
+		"xpos"			"c-195"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"25"
@@ -2462,7 +2360,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldname"		"TF2SettingsButton"
-		"xpos"			"c-135"
+		"xpos"			"c-165"
 		"ypos"			"437"
 		"zpos"			"10"
 		"wide"			"25"
@@ -2506,7 +2404,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-105"
+		"xpos"			"c-135"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"134"

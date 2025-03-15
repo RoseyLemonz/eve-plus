@@ -66,8 +66,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"10"
-		"ypos"			"r75"
+		"xpos"			"cs-0.5"
+		"ypos"			"c80"
 		"zpos"			"1"
 		"wide"			"245"	
 		"tall"			"80"	
@@ -211,7 +211,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"NemesisSubPanel"
-			"xpos"				"0"		// FIXME // NO! You Fix me! // Sorry you cant be fixed :(
+			"xpos"				"0"		// FIXME // NO! You Fix me! // Sorry you cant be fixed :( // What if you could be fixed :) // Actually no sorry i tried :(
 			"ypos"				"34"
 			"zpos"				"4"
 			"wide"				"306"

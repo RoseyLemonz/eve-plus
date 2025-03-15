@@ -67,14 +67,6 @@
 		"tooltip" 		"#MMenu_MutePlayers"
 		"OnlyInGame"	"1"
 	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"subimage" 		"icon_whistle"
-		"tooltip" 		"#MMenu_RequestCoach"
-		"OnlyInGame"	"1"
-	}	
 	
 	"ServerShortcutInfo"
 	{
