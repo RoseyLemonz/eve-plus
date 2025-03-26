@@ -45,8 +45,6 @@
 			"bgcolor_override"		"0 0 0 0"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			"AutoResize" "0"
-			"skip_autoresize" "1"
 		}
 	}	
 	
@@ -54,13 +52,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r24"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"xpos"			"c-70"	
+		"ypos"			"r24"	
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
+		"wide"			"140"	
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -99,7 +94,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
 		
 		"src_corner_height"		"23"
@@ -192,15 +186,11 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -215,15 +205,11 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -621,8 +607,6 @@
 				"textAlignment"	"west"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"TanLight"
 				"proportionalToParent"	"1"
 			}
@@ -643,8 +627,6 @@
 				"textAlignment"	"west"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -680,8 +662,6 @@
 				"textAlignment"	"east"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"TanLight"
 				"proportionalToParent"	"1"
 			}
@@ -702,8 +682,6 @@
 				"textAlignment"	"east"
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}

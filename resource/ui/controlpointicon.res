@@ -63,8 +63,6 @@
 		"wide_minmode"			"16"
 		"tall"					"31"
 		"tall_minmode"			"27"
-		"autoResize"				"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#ControlPointIconCappers"

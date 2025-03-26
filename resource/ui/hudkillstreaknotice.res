@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"500"
 		"tall"			"50"
-		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
@@ -33,7 +32,6 @@
 		"zpos"			"2"
 		"wide"			"500"
 		"tall"			"50"
-		"autoResize"	"0"
 		"fgcolor"		"tanlight"
 		
 		if_match

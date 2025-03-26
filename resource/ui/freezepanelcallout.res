@@ -53,8 +53,6 @@
 		"wide"			"70"
 		"tall"			"20"
 		"tall_minmode"	"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
