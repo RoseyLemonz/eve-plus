@@ -60,8 +60,6 @@
 			"zpos"			"10"
 			"wide"			"240"
 			"tall"			"10"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"

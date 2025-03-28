@@ -91,11 +91,8 @@
 		"zpos"			"2"
 		"wide"			"3"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
 		"fillcolor"		"235 235 235 255"
 		
 		"PaintBackgroundType"	"0"

@@ -720,12 +720,12 @@
 		"labelText"				"%mapname%"
 		"centerwrap"			"1"
 		"xpos"					"c146"
-		"ypos"					"c116"
+		"ypos"					"c120"
 		"xpos_minmode"			"20"
 		"ypos_minmode"			"415"
 		"zpos"					"3"
 		"wide"					"135"
-		"tall"					"30"
+		"tall"					"26"
 		"wide_minmode"			"258"
 		"tall_minmode"			"15"
 		"autoResize"			"0"
@@ -736,10 +736,10 @@
 		
 		if_mvm
 		{
-			"textAlignment"	"east"
 			"xpos"			"c76"
-			"ypos"			"c150"
+			"ypos"			"c148"
 			"wide"			"135"
+			"tall_minmode"	"26"
 		}
 	}	
 	"LocalPlayerStatsPanel"

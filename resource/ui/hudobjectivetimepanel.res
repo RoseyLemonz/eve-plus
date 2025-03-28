@@ -53,8 +53,6 @@
 		"zpos"					"3"
 		"wide"					"50"
 		"tall"					"3"
-		"autoResize"				"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
 		"fillcolor"				"0 0 0 225"

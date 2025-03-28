@@ -1,4 +1,3 @@
-// enum PinCorner_e 
 // {
 // 	PIN_TOPLEFT = 0,
 // 	PIN_TOPRIGHT,

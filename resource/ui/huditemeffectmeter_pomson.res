@@ -1,1 +1,1 @@
-#base "meter/huditemeffectmeter_gordbot.res"
+#base "huditemeffectmeter_particlecannon.res"

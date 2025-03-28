@@ -18,8 +18,6 @@
 			"ypos"			"14"
 			"wide"			"250"
 			"tall"			"45"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"

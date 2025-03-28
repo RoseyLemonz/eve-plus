@@ -101,16 +101,13 @@
 		"fieldName"				"HudDemomanCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c130"
-		"ypos"					"r97"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"1"		// draw in front of ammo
-		"wide"					"200"
-		"tall"					"20"
+		"wide"					"f0"
+		"tall"					"f0"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
-		
-		"xpos_minmode"			"c110"
-		"ypos_minmode"			"r111"
 	}	
 
 	HudBowCharge
@@ -1018,9 +1015,6 @@
 		"wide"					"480"
 		"tall"					"640"
 		"PaintBackgroundType"	"0"
-		
-		"xpos_minmode"			"r235"
-		"ypos_minmode"			"225"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -1033,9 +1027,6 @@
 		"wide"					"480"
 		"tall"					"640"
 		"PaintBackgroundType"	"0"
-		
-		"xpos_minmode"			"r235"
-		"ypos_minmode"			"225"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -1048,9 +1039,6 @@
 		"wide"					"480"
 		"tall"					"640"
 		"PaintBackgroundType"	"0"
-		
-		"xpos_minmode"			"r235"
-		"ypos_minmode"			"225"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -1293,10 +1281,10 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r275"
+		"xpos"					"rs1"
 		"ypos"					"300"
 		"zpos"					"10"
-		"wide"					"270"
+		"wide"					"225"
 		"tall"					"f0"
 	}
 	
