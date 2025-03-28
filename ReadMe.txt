@@ -96,3 +96,10 @@
 	* 24p scoreboard (no minmode) : disables an alternative scoreboard in minmode
 	* 32p scoreboard (no minmode) : allows you to see up to 32 players on the scoreboard and disables an alternative scoreboard in minmode
 	* 32p scoreboard (with minmode) : allows you to see up to 32 players on the scoreboard and you keep an alternative version in minmode
+
+-----------------------------------
+    Discord Plug
+-----------------------------------
+
+    If you want to, you could join my Discord server https://discord.gg/p5JV3k5CfE 
+    for updates and more active support
