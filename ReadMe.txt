@@ -6,6 +6,8 @@
 
     e.v.e HUD by: Sinders (http://steamcommunity.com/id/sinders)
 
+    Changelog: https://pastebin.com/j8xNMNzk
+
 -----------------------------------
     Additional Credits
 -----------------------------------
