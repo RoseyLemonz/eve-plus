@@ -1,5 +1,4 @@
 #base "../preload.res"
-#base "#customizations/hud_customization.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -479,7 +478,7 @@
 		"xpos"					"c-288"
 		"ypos"					"434"
 		"zpos"					"0"
-		"wide"					"320"
+		"wide"					"290"
 		"tall"					"31"
 		"visible"				"1"
 		"enabled"				"1"
@@ -2263,63 +2262,11 @@
 		}				
 	}
 
-	"ShowHUDOptionsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ShowHUDOptionsButton"
-		"xpos"			"c-135"
-		"ypos"			"437"
-		"zpos"			"10"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"f0"
-			"tall"				"f0"
-			"visible"			"1"
-			"enabled"			"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"	
-
-			"paintbackground"   "1"
-
-			"defaultBgColor_override"	"TanDark"
-
-			"use_proportional_insets" "1"
-			"proportionaltoparent"	"1"
-
-			"image_drawcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/menu/glyph_hudoptions"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}
-		}
-	}
-
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-105"
+		"xpos"			"c-135"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"134"

@@ -35,12 +35,6 @@
 		"subimage" 	"glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"ShowHUDOptionsButton"
-	{
-		"label"			""
-		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; gameui_preventescape:"
-		"tooltip"		"#TF_OptionCategory_HUD"
-	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
