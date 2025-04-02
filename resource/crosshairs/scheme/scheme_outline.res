@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"Size:10 | Outline:ON"
+		"Size:10"
 		{
 			"1"
 			{
@@ -13,7 +13,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:11 | Outline:ON"
+		"Size:11"
 		{
 			"1"
 			{
@@ -24,7 +24,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:12 | Outline:ON"
+		"Size:12"
 		{
 			"1"
 			{
@@ -35,7 +35,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:13 | Outline:ON"
+		"Size:13"
 		{
 			"1"
 			{
@@ -46,7 +46,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:14 | Outline:ON"
+		"Size:14"
 		{
 			"1"
 			{
@@ -57,7 +57,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:15 | Outline:ON"
+		"Size:15"
 		{
 			"1"
 			{
@@ -68,7 +68,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:16 | Outline:ON"
+		"Size:16"
 		{
 			"1"
 			{
@@ -79,7 +79,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:17 | Outline:ON"
+		"Size:17"
 		{
 			"1"
 			{
@@ -90,7 +90,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:18 | Outline:ON"
+		"Size:18"
 		{
 			"1"
 			{
@@ -101,7 +101,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:19 | Outline:ON"
+		"Size:19"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:20 | Outline:ON"
+		"Size:20"
 		{
 			"1"
 			{
@@ -123,7 +123,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:21 | Outline:ON"
+		"Size:21"
 		{
 			"1"
 			{
@@ -134,7 +134,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:22 | Outline:ON"
+		"Size:22"
 		{
 			"1"
 			{
@@ -145,7 +145,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:23 | Outline:ON"
+		"Size:23"
 		{
 			"1"
 			{
@@ -156,7 +156,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:24 | Outline:ON"
+		"Size:24"
 		{
 			"1"
 			{
@@ -167,7 +167,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:25 | Outline:ON"
+		"Size:25"
 		{
 			"1"
 			{
@@ -178,7 +178,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:26 | Outline:ON"
+		"Size:26"
 		{
 			"1"
 			{
@@ -189,7 +189,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:27 | Outline:ON"
+		"Size:27"
 		{
 			"1"
 			{
@@ -200,7 +200,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:28 | Outline:ON"
+		"Size:28"
 		{
 			"1"
 			{
@@ -211,7 +211,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:29 | Outline:ON"
+		"Size:29"
 		{
 			"1"
 			{
@@ -222,7 +222,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Size:30 | Outline:ON"
+		"Size:30"
 		{
 			"1"
 			{
@@ -232,6 +232,16 @@ Scheme
 				"antialias"		"1"
 				"outline"		"1"
 			}
+		}
+	}
+	
+	CustomFontFiles
+	{
+		"100"
+		{
+			"font" "resource/crosshairs/TF2Crosshairs.ttf"
+			"font" "resource/crosshairs/tf2crosshairs_linux.ttf" [$LINUX]
+			"name" "TF2Crosshairs"
 		}
 	}
 }
