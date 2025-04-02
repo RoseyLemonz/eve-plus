@@ -10,7 +10,7 @@
 // OUTLINED FONTS
 //====================================
 
-#base "scheme/scheme_outline.res"
+//#base "scheme/scheme_outline.res"
 
 //====================================
 // BLUR FONTS
@@ -26,7 +26,7 @@
 
 
 //====================================
-// MAIN FONT SCHEME - DON'T TOUCH ME
+// DEFAULT FONTS
 //====================================
 
 #base "scheme/scheme_main.res"
