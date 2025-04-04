@@ -35,14 +35,26 @@
     Remove the "eve-plus" folder from your "custom" folder.
 
 -----------------------------------
+    TF2 HUD Editor program
+-----------------------------------
+
+    While you can apply customizations and the crosshairs yourself, I recommend using 
+    the TF2 HUD editor program by CriticalFlaw : https://github.com/CriticalFlaw/TF2HUD.Editor
+
+    The program has a simple GUI for applying, changing and removing customizations.
+
+-----------------------------------
     Crosshairs / Hitmarkers
 -----------------------------------
 
-    Crosshairs can be enabled by editing the "crosshairs.res" file in "eve-plus\resource\crosshairs".
+    Crosshairs can be enabled by editing the "crosshairs.res" file in "eve-plus/resource/crosshairs".
     Change the "visible" property to "1".
 
-    Size and outline can be changed by editing a "font" property.
-    Available sizes: 10-30. Examples: "Size:24 | Outline:OFF", "Size:30 | Outline:ON".
+    Size can be changed by editing a "font" property.
+    Available sizes: 10-30. Examples: "Size:24", "Size:30".
+
+    Outlines can be enabled by going to "eve-plus/resource/crosshairs/crosshair_scheme.res"
+    and uncommenting the "#base "scheme/scheme_outline.res"" entry
 
     Colors can be changed in crosshair_colors.res and crosshair_hitmarker.res
 
@@ -50,54 +62,68 @@
     Customizations / Overrides
 -----------------------------------
 
-    There is a folder called "customizations". It contains alternative version of files that will allow you to change various components.
+    There is a folder called "#customizations". It contains alternative version of 
+    files that will allow you to change various components.
 
-    Copy the contents of the customization you want to apply to the "eve-plus" folder.
+    Move the folder of the customization from _disabled to #customizations to enable them.
+    Some folders will have sub directories. This is marked with a !. You need to check these folders
+    for the option you want 
 
 -----------------------------------
 
- * how to change a number or a size of kill notifications:
-	1. Open tf\scripts\hudlayout.res.
-	2. Search for "##Kill Notifications##".
-	3. Change following values to your liking:
-	  * "MaxDeathNotices" : maximum number of notifications visible at the same time
-	  * "LineHeight" : height/size of each notification
+    * how to change a number or a size of kill notifications :
+        1. Open tf\scripts\hudlayout.res.
+        2. Search for "##Kill Notifications##".
+        3. Change following values to your liking:
+        * "MaxDeathNotices" : maximum number of notifications visible at the same time
+        * "LineHeight" : height/size of each notification
 
- * 4:3 fixes : this should fix all errors in a 4:3 aspect ratio
+    * 4:3 fixes : 
+    this should fix all errors in a 4:3 aspect ratio
 
- * alternative damage colors, sizes, location : this will change a color/size/location of damage values:
-	* left side/right side
-	  * big/standard
-	    * orange
-	    * pink as hell
-	    * red
-	    * turquoise 
-	    * yellow
+    * alternative damage colors, sizes, location : 
+    this will change a color/size/location of damage values:
+        * left side/right side
+        * big/standard
+            * orange
+            * pink as hell
+            * red
+            * turquoise 
+            * yellow
 
- * alternative Pip-Boy screens : this will change a color of the Pip-Boy's build menus
-	* amber
-	* blue
-	* disabled : use standard build menus
+    * alternative Pip-Boy screens : 
+    this will change a color of the Pip-Boy's build menus
+        * amber
+        * blue
+        * disabled : use standard build menus
 
- * centered ubercharge : ubercharge meter will be placed under your crosshair
+    * centered ubercharge : 
+    ubercharge meter will be placed under your crosshair
 
- * health and ammo:
-    * bigger fonts - increases the font size of your health and ammo
-	* no animation : removes an animation when low on health or ammo
+    * health and ammo:
+        * bigger fonts - increases the font size of your health and ammo
+        * no animation - removes an animation when low on health or ammo
 
- * main menu shortcuts - you can enable 6 custom buttons that will instantly connect you to selected servers, install the override and add the following commands to your autoexec.cfg:
-						alias ServerShortcut1 "connect SERVERIP"
-						alias ServerShortcut2 "connect SERVERIP"
-						...
+    * main menu shortcuts : 
+    you can enable 6 custom buttons that will instantly connect you to selected servers, 
+    install the override and add the following commands to your autoexec.cfg:
 
- * no class avatars - removes your class' avatar near your health
+                            alias ServerShortcut1 "connect SERVERIP"
+                            alias ServerShortcut2 "connect SERVERIP"
+                            ... repeat until 6
 
- * no last damage done : you won't see last damage done above your weapon
+    * no class avatars : 
+    removes your class' avatar near your health
 
- * scoreboards:
-	* 24p scoreboard (no minmode) : disables an alternative scoreboard in minmode
-	* 32p scoreboard (no minmode) : allows you to see up to 32 players on the scoreboard and disables an alternative scoreboard in minmode
-	* 32p scoreboard (with minmode) : allows you to see up to 32 players on the scoreboard and you keep an alternative version in minmode
+    * no last damage done : 
+    you won't see last damage done above your weapon
+
+    * scoreboards:
+        * 24p scoreboard (no minmode) : disables an alternative scoreboard in minmode
+        * 32p scoreboard (no minmode) : allows you to see up to 32 players on the scoreboard and 
+        disables an alternative scoreboard in minmode
+        * 32p scoreboard (with minmode) : allows you to see up to 32 players on the scoreboard and 
+        you keep an alternative version in minmode
 
 -----------------------------------
     Discord Plug
