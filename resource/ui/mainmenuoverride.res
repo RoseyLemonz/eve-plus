@@ -1478,6 +1478,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
+			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"

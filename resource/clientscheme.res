@@ -1,7 +1,7 @@
 
 // Overrides
-#base "scheme/clientscheme_sans.res"
-#base "../resource/crosshairs/crosshair_scheme.res"
+#base "../#customization/comic sans!/clientscheme_sans.res"
+#base "crosshairs/crosshair_scheme.res"
 
 // Base
 #base "scheme/clientscheme.res"
