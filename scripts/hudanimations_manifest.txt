@@ -1,6 +1,6 @@
 hudanimations_manifest
 {
-
+	"file"		"#customization/health and ammo - no animation/hudanimations_health.txt"
 	"file"		"scripts/hudanimations_evehud.txt"
 	"file"		"scripts/hudanimations.txt"
 	"file"		"resource/crosshairs/crosshair_animation.txt"

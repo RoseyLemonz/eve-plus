@@ -1,4 +1,4 @@
-"Resource/UI/Meter/HudItemEffectMeter_Primary.res"
+"Resource/UI/Meter/HudItemEffectMeter_Main.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,10 +7,10 @@
 		"enabled"		"1"
 		"xpos"			"c130"
 		"xpos_minmode"	"c110"
-		"ypos"			"r100"
-		"ypos_minmode"	"r115"
+		"ypos"			"r85"
+		"ypos_minmode"	"r100"
 		"wide"			"220"
-		"tall"			"20"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -33,34 +33,34 @@
 		"fillcolor"				"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
-		"font"					"FontStoreOriginalPrice"
-		"xpos"					"150"
-		"ypos"					"3"
-		"zpos"					"2"
-		"wide"					"38"
-		"tall"					"15"
-		"visible"				"1"
-		"visible_minmode"		"0"
-		"enabled"				"1"
-		"labelText"				"#TF_ENERGYDRINK"
-		"textAlignment"			"west"
-		"allcaps"				"1"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"HudFontSmallest"
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterLabel"
+		"font"				"HudFontSmallest"
+		"xpos"				"150"
+		"ypos"				"3"
+		"zpos"				"6"
+		"wide"				"38"
+		"tall"				"15"
+		"visible"			"1"
+		"visible_minmode"	"0"
+		"enabled"			"1"
+		"labelText"			"#TF_Ball"
+		"textAlignment"		"west"
+		"allcaps"			"1"
+		"dulltext"			"0"
+		"brighttext"		"1"
+		"fgcolor" 			"255 255 255 255"
 	}
-
 	"ItemEffectMeter"
 	{		
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"			"2"
+		"zpos"			"2"		
 		"xpos"			"16"
 		"ypos"			"6"
 		"wide"			"130"
