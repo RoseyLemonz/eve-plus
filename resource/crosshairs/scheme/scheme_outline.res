@@ -234,14 +234,4 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
-	{
-		"100"
-		{
-			"font" "resource/crosshairs/TF2Crosshairs.ttf"
-			"font" "resource/crosshairs/tf2crosshairs_linux.ttf" [$LINUX]
-			"name" "TF2Crosshairs"
-		}
-	}
 }
