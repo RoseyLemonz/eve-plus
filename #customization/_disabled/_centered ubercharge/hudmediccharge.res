@@ -3,8 +3,6 @@
 	"Background"
 	{
 		"ypos"				"71"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 	}
 	"ChargeLabel"
 	{
