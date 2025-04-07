@@ -7,7 +7,7 @@
 
 event DamagedPlayer
 {
-    StopEvent HitMarker 0.0w
+    StopEvent HitMarker 0.0
     RunEvent HitMarker 0.00001
 }
 
