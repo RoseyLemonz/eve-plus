@@ -1,5 +1,5 @@
 ------------------------------------
-    e.v.e plus v1.0 (28.3.2025)
+    e.v.e plus v2.0 (1.1.1970)
 -----------------------------------
 
     Created by: RoseyLemonz (http://steamcommunity.com/id/RoseyLemonz)
@@ -15,6 +15,13 @@
     Community HUD Fixes (https://github.com/CriticalFlaw/TF2HUD-Fixes)
 
     TF2 HUD Crosshairs (https://github.com/Hypnootize/TF2-HUD-Crosshairs)
+
+-----------------------------------
+    Discord Plug
+-----------------------------------
+
+    If you want to, you could join my Discord server https://discord.gg/p5JV3k5CfE 
+    for progress updates and, active support and whatever else I might do
 
 -----------------------------------
     How to install
@@ -39,9 +46,10 @@
 -----------------------------------
 
     While you can apply customizations and the crosshairs yourself, I recommend using 
-    the TF2 HUD editor program by CriticalFlaw : https://github.com/CriticalFlaw/TF2HUD.Editor
+    the TF2 HUD Editor program by CriticalFlaw : https://github.com/CriticalFlaw/TF2HUD.Editor
 
-    The program has a simple GUI for applying, changing and removing customizations.
+    The program has a simple GUI for applying, changing and removing customizations. The e.v.e Plus
+    preset should be in the program when this release is published, or a couple days after.
 
 -----------------------------------
     Crosshairs / Hitmarkers
@@ -53,8 +61,9 @@
     Size can be changed by editing a "font" property.
     Available sizes: 10-30. Examples: "Size:24", "Size:30".
 
-    Outlines can be enabled by going to "eve-plus/resource/crosshairs/crosshair_scheme.res"
-    and uncommenting the "#base "scheme/scheme_outline.res"" entry
+    Crosshair styles can be enabled by going to 
+    "eve-plus/resource/crosshairs/scheme" and taking whichever style you want
+    from the "_disabled" folder and moving it to the "scheme" folder 
 
     Colors can be changed in crosshair_colors.res and crosshair_hitmarker.res
 
@@ -124,10 +133,3 @@
         disables an alternative scoreboard in minmode
         * 32p scoreboard (with minmode) : allows you to see up to 32 players on the scoreboard and 
         you keep an alternative version in minmode
-
------------------------------------
-    Discord Plug
------------------------------------
-
-    If you want to, you could join my Discord server https://discord.gg/p5JV3k5CfE 
-    for updates and more active support

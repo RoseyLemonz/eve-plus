@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"Size:10 | Blur:ON"
+		"Size:10"
 		{
 			"1"
 			{
@@ -10,10 +10,10 @@ Scheme
 				"tall"			"10"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:11 | Blur:ON"
+		"Size:11"
 		{
 			"1"
 			{
@@ -21,10 +21,10 @@ Scheme
 				"tall"			"11"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:12 | Blur:ON"
+		"Size:12"
 		{
 			"1"
 			{
@@ -32,10 +32,10 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:13 | Blur:ON"
+		"Size:13"
 		{
 			"1"
 			{
@@ -43,10 +43,10 @@ Scheme
 				"tall"			"13"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:14 | Blur:ON"
+		"Size:14"
 		{
 			"1"
 			{
@@ -54,10 +54,10 @@ Scheme
 				"tall"			"14"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:15 | Blur:ON"
+		"Size:15"
 		{
 			"1"
 			{
@@ -65,10 +65,10 @@ Scheme
 				"tall"			"15"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:16 | Blur:ON"
+		"Size:16"
 		{
 			"1"
 			{
@@ -76,10 +76,10 @@ Scheme
 				"tall"			"16"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:17 | Blur:ON"
+		"Size:17"
 		{
 			"1"
 			{
@@ -87,10 +87,10 @@ Scheme
 				"tall"			"17"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:18 | Blur:ON"
+		"Size:18"
 		{
 			"1"
 			{
@@ -98,10 +98,10 @@ Scheme
 				"tall"			"18"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:19 | Blur:ON"
+		"Size:19"
 		{
 			"1"
 			{
@@ -109,10 +109,10 @@ Scheme
 				"tall"			"19"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:20 | Blur:ON"
+		"Size:20"
 		{
 			"1"
 			{
@@ -120,10 +120,10 @@ Scheme
 				"tall"			"20"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:21 | Blur:ON"
+		"Size:21"
 		{
 			"1"
 			{
@@ -131,10 +131,10 @@ Scheme
 				"tall"			"21"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:22 | Blur:ON"
+		"Size:22"
 		{
 			"1"
 			{
@@ -142,10 +142,10 @@ Scheme
 				"tall"			"22"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:23 | Blur:ON"
+		"Size:23"
 		{
 			"1"
 			{
@@ -153,10 +153,10 @@ Scheme
 				"tall"			"23"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:24 | Blur:ON"
+		"Size:24"
 		{
 			"1"
 			{
@@ -164,10 +164,10 @@ Scheme
 				"tall"			"24"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:25 | Blur:ON"
+		"Size:25"
 		{
 			"1"
 			{
@@ -175,10 +175,10 @@ Scheme
 				"tall"			"25"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:26 | Blur:ON"
+		"Size:26"
 		{
 			"1"
 			{
@@ -186,10 +186,10 @@ Scheme
 				"tall"			"26"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:27 | Blur:ON"
+		"Size:27"
 		{
 			"1"
 			{
@@ -197,10 +197,10 @@ Scheme
 				"tall"			"27"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:28 | Blur:ON"
+		"Size:28"
 		{
 			"1"
 			{
@@ -208,10 +208,10 @@ Scheme
 				"tall"			"28"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:29 | Blur:ON"
+		"Size:29"
 		{
 			"1"
 			{
@@ -219,10 +219,10 @@ Scheme
 				"tall"			"29"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
-		"Size:30 | Blur:ON"
+		"Size:30"
 		{
 			"1"
 			{
@@ -230,7 +230,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"0"
 				"antialias"		"1"
-				"blur"			"2"
+				"dropshadow"	"1"
 			}
 		}
 	}

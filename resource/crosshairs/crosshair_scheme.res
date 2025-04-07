@@ -10,19 +10,19 @@
 // OUTLINED FONTS
 //====================================
 
-//#base "scheme/scheme_outline.res"
+#base "scheme/scheme_outline.res"
 
 //====================================
 // BLUR FONTS
 //====================================
 
-//#base "scheme/scheme_blur.res"
+#base "scheme/scheme_blur.res"
 
 //====================================
 // SHADOW FONTS
 //====================================
 
-//#base "scheme/scheme_dropshadow.res"
+#base "scheme/scheme_dropshadow.res"
 
 
 //====================================
