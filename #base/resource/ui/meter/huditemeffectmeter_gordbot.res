@@ -51,7 +51,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontStoreOriginalPrice"
+		"font"					"HudFontSmallest"
 	}
 
 	"ItemEffectMeter"
