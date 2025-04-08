@@ -84,7 +84,7 @@
 		"xpos"				"16"
 		"ypos"				"12"
 		"zpos"				"12"
-		"wide"				"32"
+		"wide"				"33"
 		"tall"				"2"
 		"visible"			"1"
 		"visible_minmode"	"0"
@@ -95,8 +95,8 @@
 	{
 		"controlName"		"ImagePanel"
 		"fieldName"			"ChargeColor_50"
-		"xpos"				"48"
-		"ypos"				"12"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"13"
 		"wide"				"32"
 		"tall"				"2"
@@ -104,13 +104,16 @@
 		"visible_minmode"	"0"
 		"enabled"			"1"
 		"fillcolor"			"160 160 160 255"
+
+		"pin_to_sibling"	"ChargeColor_25"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}	
 	"ChargeColor_75"
 	{
 		"controlName"		"ImagePanel"
 		"fieldName"			"ChargeColor_75"
-		"xpos"				"80"
-		"ypos"				"12"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"14"
 		"wide"				"32"
 		"tall"				"2"
@@ -118,19 +121,25 @@
 		"visible_minmode"	"0"
 		"enabled"			"1"
 		"fillcolor"			"190 190 190 255"
+
+		"pin_to_sibling"	"ChargeColor_50"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}	
 	"ChargeColor_100"
 	{
 		"controlName"		"ImagePanel"
 		"fieldName"			"ChargeColor_100"
-		"xpos"				"112"
-		"ypos"				"12"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"15"
-		"wide"				"34"
+		"wide"				"33"
 		"tall"				"2"
 		"visible"			"1"
 		"visible_minmode"	"0"
 		"enabled"			"1"
 		"fillcolor"			"255 255 255 255"
+
+		"pin_to_sibling"	"ChargeColor_75"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}	
 }
