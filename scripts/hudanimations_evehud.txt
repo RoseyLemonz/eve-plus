@@ -193,14 +193,13 @@ event HudSpyDisguiseFadeOut
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"black"					Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"UberFlash"					Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"60 160 255 255"		Linear 0.0 0.1		//UberColorLine1
-	Animate	ChargeMeter 	FgColor		"90 200 255 255"		Linear 0.1 0.1		//UberColorLine2
-	Animate	ChargeMeter 	FgColor		"black"					Linear 0.3 0.4		//UberColorLine3
+	Animate	ChargeMeter 	FgColor		"UberBar"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"UberFlash"					Linear 0.3 0.4
 	
-	RunEvent HudMedicChargedLoop	0.7		//0.6
+	RunEvent HudMedicChargedLoop	0.6		//0.6
 }
 
 // call to loop HudHealthBonusPulse
@@ -214,7 +213,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.2
+	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.0
 	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Linear 0.0 0.0
 }
 
