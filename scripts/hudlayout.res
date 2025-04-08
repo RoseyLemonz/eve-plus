@@ -1,19 +1,23 @@
 "Resource/HudLayout.res"
 {
-	"TransparentViewmodelMask"
+	//--------------------------------------------------------------
+	// TRANSPARENT VIEWMODEL
+	//--------------------------------------------------------------
+	// Set visible/enabled to 1 to use.
+	//--------------------------------------------------------------
+	"TransparentViewmodel"
 	{
-		//alpha doesn't work for this, you need to change the texture's alpha
-		"ControlName"			"ImagePanel"
-		"fieldName"				"TransparentViewmodelMask"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-100"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible"				"0"
-		"enabled"				"0"
-		"image"					"replay/thumbnails/REFRACTnormal_transparent"
-		"scaleImage"			"1"
+		"visible"			"0"
+		"enabled"			"1"
+		"controlName"		"ImagePanel"
+		"fieldName"			"TransparentViewmodel"
+		"zpos"				"-100"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/transparent"
+		"scaleImage"		"1"
 	}
 	
 	HudPlayerStatus
@@ -1010,10 +1014,10 @@
 		"fieldName"				"HudMenuEngyBuild"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-115"
-		"ypos"					"249"
-		"wide"					"480"
-		"tall"					"640"
+		"xpos"					"cs-0.5"
+		"ypos"					"250"
+		"wide"					"230"
+		"tall"					"120"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1022,10 +1026,10 @@
 		"fieldName"				"HudMenuEngyDestroy"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-115"
-		"ypos"					"249"
-		"wide"					"480"
-		"tall"					"640"
+		"xpos"					"cs-0.5"
+		"ypos"					"250"
+		"wide"					"230"
+		"tall"					"120"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1034,10 +1038,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-115"
-		"ypos"					"249"
-		"wide"					"480"
-		"tall"					"640"
+		"xpos"					"cs-0.5"
+		"ypos"					"250"
+		"wide"					"230"
+		"tall"					"120"
 		"PaintBackgroundType"	"0"
 	}
 	

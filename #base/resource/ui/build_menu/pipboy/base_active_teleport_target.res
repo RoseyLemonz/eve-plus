@@ -16,7 +16,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"white"
+		"fgcolor"		"0 255 0 255"
 	}
 
 	"ItemBackground"	
@@ -48,7 +48,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"ModeLabel"
@@ -58,10 +58,11 @@
 		"font"			"DefaultSmall"
 		"fgcolor"		"TanDarker"
 		"xpos"			"33"
-		"ypos"			"17"
+		"ypos"			"19"
 		"zpos"			"1"
 		"wide"			"44"
 		"tall"			"13"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -81,7 +82,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"NumberLabel"
@@ -101,5 +102,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 }

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\logos\pipboy\ico_demolish_blue"
+	"$baseTexture" "vgui/replay/thumbnails/pipboy/ico_demolish_blue"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

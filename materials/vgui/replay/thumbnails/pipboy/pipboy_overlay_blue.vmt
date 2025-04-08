@@ -1,6 +1,6 @@
 "UnlitTwoTexture"
 {
-	"$basetexture" "vgui\logos\pipboy\pipboy_overlay_blue"
+	"$basetexture" "vgui/replay/thumbnails/pipboy/pipboy_overlay_blue"
 	"$texture2"	"dev/dev_scanline"
 	"$mod2x" "1"
 	
