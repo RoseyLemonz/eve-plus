@@ -5,17 +5,32 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"450"
-		"tall"			"170"
-		"visible"		"0"
-		"enabled"		"0"
+		"tall"			"180"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"paintbackground" "0"
 	}
-	
+	"ItemBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"230"
+		"tall"			"118"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+
+		"image"			"pipboy_overlay"
+		"tileImage"		"1"
+		"drawcolor"		"192 192 192 255"
+	}
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -29,23 +44,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 255"
 	}	
-	"BuildIconShadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildIconShadow"
-		"xpos"			"4"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_build"
-		"iconColor"		"0 0 0 255"
-	}
 	"BuildIcon2"	
 	{
 		"ControlName"	"CIconPanel"
@@ -59,23 +59,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"255 255 255 255"
-	}
-	
-	"BuildIcon2Shadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildIcon2Shadow"
-		"xpos"			"203"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"24"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_build"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"TitleLabel"
@@ -94,7 +78,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"white"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"TitleLabelDropshadow"
@@ -113,7 +97,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 85 0 255"
 	}
 	
 	"CancelLabel"
@@ -132,6 +116,7 @@
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"available_target_1"
@@ -181,55 +166,57 @@
 		"tall"			"100"
 		"visible"		"1"
 	}	
-	"TeamColoredBar"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"		
-		"wide"			"230"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-		
-		"src_corner_height"		"3"		// pixels inside the image
-		"src_corner_width"		"3"
-		
-		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}
+
 	"BGShadeBox"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGshade"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"-10"
+
+
+		"wide"			"228"
+		"tall"			"110"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"0 0 0 150"
+		"PaintBackgroundType"	"0"
+	}	
+	"RandomBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"RandomBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-1"
 		"zpos"			"-10"
 		"wide"			"230"
-		"tall"			"118"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
-		"PaintBackgroundType"	"0"
+
+
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"			"1"	
+		
+		"src_corner_height"		"35"
+		"src_corner_width"		"35"
+		
+		"draw_corner_width"		"6"
+		"draw_corner_height" 		"6"	
 	}
 	"HorizontalBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HorizontalBar"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"26"
 		"zpos"			"2"
-		"wide"			"230"
+		"wide"			"210"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 150"
+		"fillcolor"		"0 255 0 100"
 		"PaintBackgroundType"	"0"
 	}
 }

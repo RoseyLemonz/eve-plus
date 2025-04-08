@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/build_menu/base_already_built.res"
 {
 	"ItemNameLabel"
 	{	
@@ -16,7 +16,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"white"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
@@ -32,7 +32,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 125"
+		"iconColor"		"0 0 0 150"
 	}
 	
 	"CantBuildReason"
@@ -40,17 +40,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"ScoreboardSmall"
-		"fgcolor"		"RedSolid"
-		"xpos"			"3"
+		"xpos"			"5"
 		"ypos"			"33"
 		"zpos"			"2"
-		"wide"			"52"
+		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Build_Cant_Afford"
-		"textAlignment"	"Center"
+		"labelText"		"#Hud_Menu_Build_Already_Built"
 		"centerwrap"	"1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"MetalIcon"	
@@ -66,30 +67,14 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"RedSolid"
-	}
-	"MetalIconShadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"11"
-		"ypos"			"16"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"Black"
+		"iconColor"		"0 255 0 255"
 	}
 	
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmallbold"
-		"fgcolor"		"RedSolid"
+		"font"			"HudFontSmallBold"
 		"xpos"			"26"
 		"ypos"			"14"
 		"zpos"			"1"
@@ -98,23 +83,26 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"
+		"textAlignment"	"Left"	
+		"fgcolor"		"0 255 0 255"
 	}
-	"CostLabelShadow"
+	
+	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"Black"
-		"xpos"			"26"
-		"ypos"			"15"
+		"fieldName"		"ModeLabel"
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanDark"
+		"xpos"			"33"
+		"ypos"			"19"
 		"zpos"			"1"
-		"wide"			"84"
+		"wide"			"44"
 		"tall"			"13"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"	"East"	
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"NumberBg"	
@@ -130,7 +118,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 128"
+		"iconColor"		"0 255 0 128"
 	}
 	
 	"NumberLabel"
@@ -150,5 +138,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}
 }

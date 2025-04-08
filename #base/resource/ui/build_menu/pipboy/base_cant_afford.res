@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_unavailable.res"
+"Resource/UI/build_menu/base_cant_afford.res"
 {
 	"ItemNameLabel"
 	{	
@@ -16,7 +16,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"white"
+		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
@@ -32,62 +32,68 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 175"
+		"iconColor"		"0 0 0 150"
 	}
-	"CantBuildIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CantBuildIcon"
-		"xpos"			"8"
-		"ypos"			"20"
-		"zpos"			"3"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"progress_bar_noCap"
-		"scaleImage"	"1"
-	}
+	
 	"CantBuildReason"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"ScoreboardSmall"
+		"font"			"ScoreboardSmallbold"
+		"fgcolor"		"0 125 0 255"
 		"xpos"			"3"
 		"ypos"			"33"
 		"zpos"			"2"
 		"wide"			"52"
 		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#Hud_Menu_Build_Unavailable"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Build_Cant_Afford"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"centerwrap"	"1"
 	}
-	"BuildingIcon"	
+	
+	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildingIcon"
+		"fieldName"		"MetalIcon"
 		"xpos"			"10"
-		"ypos"			"22"
-		"zpos"			"2"
-		"wide"			"35"
-		"tall"			"35"
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_tele_exit"
-		"iconColor"		"255 255 255 180"
+		"icon"			"ico_metal"
+		"iconColor"		"0 125 0 255"
 	}
+	
+	"CostLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CostLabel"
+		"font"			"HudFontSmallBold"
+		"fgcolor"		"0 125 0 255"
+		"xpos"			"26"
+		"ypos"			"14"
+		"zpos"			"1"
+		"wide"			"84"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"Left"
+	}
+	
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"RedSolid"
 		"xpos"			"33"
-		"ypos"			"17"
+		"ypos"			"19"
 		"zpos"			"1"
 		"wide"			"44"
 		"tall"			"13"
@@ -96,7 +102,7 @@
 		"labelText"		""
 		"textAlignment"	"East"	
 	}
-		
+	
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -110,7 +116,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"0 255 0 128"
 	}
 	
 	"NumberLabel"
