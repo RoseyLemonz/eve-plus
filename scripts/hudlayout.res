@@ -221,16 +221,16 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-235"		//"140"
-		"ypos"					"r152"
+		"xpos"					"c-240"		//"140"
+		"ypos"					"r138"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"xpos_minmode"			"c-210"
-		"ypos_minmode"			"r165"
+		"xpos_minmode"			"c-215"
+		"ypos_minmode"			"r152"
 	}
 	
 	CDamageAccountPanel
@@ -1421,6 +1421,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-260"
 		"ypos"			"c-80"
+		"zpos"			"100"
 		"xpos_minmode"		"c-240"
 		"ypos_minmode"		"c-100"
 		"wide"			"150"
