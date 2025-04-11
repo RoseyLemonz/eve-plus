@@ -1,19 +1,23 @@
 "Resource/HudLayout.res"
 {
-	"TransparentViewmodelMask"
+	//--------------------------------------------------------------
+	// TRANSPARENT VIEWMODEL
+	//--------------------------------------------------------------
+	// Set visible/enabled to 1 to use.
+	//--------------------------------------------------------------
+	"TransparentViewmodel"
 	{
-		//alpha doesn't work for this, you need to change the texture's alpha
-		"ControlName"			"ImagePanel"
-		"fieldName"				"TransparentViewmodelMask"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-100"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible"				"0"
-		"enabled"				"0"
-		"image"					"replay/thumbnails/REFRACTnormal_transparent"
-		"scaleImage"			"1"
+		"visible"			"0"
+		"enabled"			"1"
+		"controlName"		"ImagePanel"
+		"fieldName"			"TransparentViewmodel"
+		"zpos"				"-100"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/transparent"
+		"scaleImage"		"1"
 	}
 	
 	HudPlayerStatus
@@ -32,7 +36,7 @@
 		"fieldName"				"HudWeaponAmmo"
 		"visible"				"1"
 		"enabled"				"1"		
-		"xpos"					"c90"
+		"xpos"					"c100"
 		"ypos"					"r82"
 		"wide"					"180"
 		"tall"					"70"
@@ -90,7 +94,7 @@
 		"fieldName"				"HudMedicCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-100"
+		"xpos"					"c-90"
 		"ypos"					"c0"
 		"wide"					"800"
 		"tall"					"800"
@@ -101,16 +105,13 @@
 		"fieldName"				"HudDemomanCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c110"
-		"ypos"					"r97"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"1"		// draw in front of ammo
-		"wide"					"200"
-		"tall"					"20"
+		"wide"					"f0"
+		"tall"					"f0"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
-		
-		"xpos_minmode"			"c110"
-		"ypos_minmode"			"r111"
 	}	
 
 	HudBowCharge
@@ -204,7 +205,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c165"
+		"xpos"					"c180"
 		"ypos"					"r180"
 		"zpos"					"1"
 		"wide"					"116"
@@ -220,16 +221,16 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-220"		//"140"
-		"ypos"					"r152"
+		"xpos"					"c-240"		//"140"
+		"ypos"					"r138"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"xpos_minmode"			"c-220"
-		"ypos_minmode"			"r165"
+		"xpos_minmode"			"c-215"
+		"ypos_minmode"			"r152"
 	}
 	
 	CDamageAccountPanel
@@ -282,7 +283,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-126"
-		"ypos"					"280"
+		"ypos"					"300"
 		"wide"					"252"
 		"tall"					"30"
 		"priority"				"40"
@@ -329,7 +330,7 @@
 		"fieldName"				"BuildingStatus_Engineer"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"-16"
+		"xpos"					"-18"
 		"zpos"					"10"
 		"ypos"					"0"
 		"wide"					"640"
@@ -342,7 +343,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-284"
+		"xpos"				"c-309"
 		"ypos"				"r54"
 		"zpos"				"1"
 		"wide"				"100"
@@ -598,9 +599,9 @@
 		"wide"		"640"
 		"tall"		"480"
 		"zpos"		"2"
-		"xpos"			"c-305"
+		"xpos"			"c-345"
 		"ypos"			"r60"
-		"xpos_minmode"	"c-305"
+		"xpos_minmode"	"c-320"
 		"ypos_minmode"	"r72"
 		
 		"TextFont"				"Default"
@@ -613,7 +614,7 @@
 		"fieldName"				"HudCloseCaption"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c125"
+		"xpos"					"c145"
 		"xpos_minmode"			"c125"
 		"ypos"					"200"
 		"ypos_minmode"			"190"
@@ -1013,10 +1014,10 @@
 		"fieldName"				"HudMenuEngyBuild"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-115"
-		"ypos"					"249"
-		"wide"					"480"
-		"tall"					"640"
+		"xpos"					"cs-0.5"
+		"ypos"					"250"
+		"wide"					"230"
+		"tall"					"120"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1025,10 +1026,10 @@
 		"fieldName"				"HudMenuEngyDestroy"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-115"
-		"ypos"					"249"
-		"wide"					"480"
-		"tall"					"640"
+		"xpos"					"cs-0.5"
+		"ypos"					"250"
+		"wide"					"230"
+		"tall"					"120"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1037,10 +1038,10 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-115"
-		"ypos"					"249"
-		"wide"					"480"
-		"tall"					"640"
+		"xpos"					"cs-0.5"
+		"ypos"					"250"
+		"wide"					"230"
+		"tall"					"120"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1061,7 +1062,7 @@
 		"fieldName"				"HudDemomanPipes"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c120"
+		"xpos"					"c130"
 		"ypos"					"r96"
 		"wide"					"200"
 		"tall"					"50"
@@ -1284,10 +1285,10 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r275"
+		"xpos"					"rs1"
 		"ypos"					"300"
 		"zpos"					"10"
-		"wide"					"270"
+		"wide"					"225"
 		"tall"					"f0"
 	}
 	
@@ -1420,6 +1421,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-260"
 		"ypos"			"c-80"
+		"zpos"			"100"
 		"xpos_minmode"		"c-240"
 		"ypos_minmode"		"c-100"
 		"wide"			"150"
