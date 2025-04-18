@@ -247,7 +247,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
 			"xpos"				"c-97"
-			"ypos"				"r71"
+			"ypos"				"r83"
 			"zpos"				"20"
 			"wide"				"200"
 			"tall"				"100"
