@@ -99,11 +99,12 @@
 		"fieldName"				"HudDemomanCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"1"		// draw in front of ammo
-		"wide"					"f0"
-		"tall"					"f0"
+		"xpos"					"c130"
+		"xpos_minmode"			"c110"
+		"ypos"					"r100"
+		"ypos_minmode"			"r115"
+		"wide"					"220"
+		"tall"					"50"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
 	}	

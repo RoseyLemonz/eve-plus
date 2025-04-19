@@ -295,7 +295,7 @@
 		
 		if_mvm
 		{
-			"tall"			"26"
+			"tall"			"30"
 			"alpha"			"0"
 		}
 	}

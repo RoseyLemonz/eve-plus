@@ -49,19 +49,49 @@
 			"fgcolor_override" "200 80 60 255"
 		}
 
+
+		// hide button
+		"CancelButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"CancelButton"
+			"xpos"			"5"
+			"ypos"			"45"
+			"zpos"			"20"
+			"wide"			"60"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#Eve_Hide"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"textinsetx"	"50"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"cancel"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"			"Econ.Button.Border.Default"
+			"border_armed"				"Econ.Button.Border.Armed"
+			"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+			"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+			"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+			"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		}
+
 		"ConfirmButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ConfirmButton"
-			"xpos"			"50"
+			"xpos"			"70"
 			"ypos"			"45"
 			"zpos"			"20"
-			"wide"			"100"
+			"wide"			"80"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#ConfirmButtonText"
-			"font"			"ReplayBrowserSmallest"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -81,10 +111,10 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"SpectatorGUIHealth"
-			"xpos"				"155"
-			"ypos"				"39"
+			"xpos"				"150"
+			"ypos"				"37"
 			"zpos"				"20"
-			"wide"				"48"
+			"wide"				"65"
 			"tall"				"48"
 			"visible"			"1"
 			"enabled"			"1"	
@@ -93,6 +123,7 @@
 			"TFFont"					"HudFontSmallest"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
+			"paintBackground"		"1"
 		}
 	}
 }

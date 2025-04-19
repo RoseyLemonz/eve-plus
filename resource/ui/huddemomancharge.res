@@ -1,18 +1,3 @@
-"Resource/UI/HudDemomanCharge.res"
-{	
-	"ChargeMeter"
-	{	
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ChargeMeter"
-		"visible"		"1"
-		"enabled"		"1"
+#base "../../#customization/centered demo and bow charge/huddemomancharge.res"
 
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+30"
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"4"
-		
-		"fgcolor_override"	"255 255 255 255"	
-	}
-}
+#base "../../#base/resource/ui/huddemomancharge.res"
