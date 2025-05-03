@@ -59,8 +59,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}
 
 	"ItemEffectMeter"

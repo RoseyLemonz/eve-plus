@@ -49,8 +49,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontSmallest"
 	}
 
@@ -70,8 +68,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"West"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}
 	"Mark1"
 	{

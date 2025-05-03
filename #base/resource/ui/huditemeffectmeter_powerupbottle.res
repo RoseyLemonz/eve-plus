@@ -73,8 +73,6 @@
 		"enabled"				"0"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"ScoreboardSmall"
 	}	
 	"ItemEffectMeterLabelShadow"
@@ -90,8 +88,6 @@
 		"enabled"				"0"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"ScoreboardSmall"
 		"fgcolor"				"black"
 	}
@@ -109,8 +105,6 @@
 		"visible"				"0"
 		"enabled"				"0"
 		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}					
 	
 	"ItemEffectMeterCount"
@@ -127,8 +121,6 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontSmallbold"
 		"fgcolor"				"white"
 	}

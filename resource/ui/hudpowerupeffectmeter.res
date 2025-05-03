@@ -42,8 +42,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"TFFontSmall"
 		"allcaps"				"1"
 	}
@@ -60,7 +58,5 @@
 		"tall"					"5"				
 		"visible"				"1"
 		"enabled"				"1"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}					
 }

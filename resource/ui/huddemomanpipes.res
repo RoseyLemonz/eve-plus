@@ -75,8 +75,6 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"white"
 		}
@@ -93,8 +91,6 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"black"
 		}
@@ -141,8 +137,6 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"white"
 			"alpha"			"150"
@@ -160,8 +154,6 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"black"
 		}

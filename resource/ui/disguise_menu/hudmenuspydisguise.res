@@ -126,8 +126,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"white"
 	}
 	
@@ -145,8 +143,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"Black"
 	}	
 	
@@ -164,8 +160,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"CancelLabel"
@@ -182,8 +176,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"HighlightBar"
 	{
@@ -447,8 +439,6 @@
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"NumberBg2"
@@ -482,8 +472,6 @@
 		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 	
 	"NumberBg3"
@@ -517,8 +505,6 @@
 		"enabled"		"1"
 		"labelText"		"3"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}	
 	"Box1"
 	{

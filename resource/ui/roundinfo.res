@@ -39,8 +39,6 @@
 		"enabled"		"1"
 		"labelText"		"#round_info_header"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontsmallBold"
 		"fgcolor"		"Gray"
 	}
@@ -58,8 +56,6 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"white"
 	}
@@ -77,8 +73,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"wrap"			"0"
 		"command"		"continue"
 		"default"		"1"

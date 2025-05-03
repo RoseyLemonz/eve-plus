@@ -60,8 +60,6 @@
 			"enabled"		"1"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"		"Center"
-			"dulltext"		"0"
-			"brighttext"		"0"
 			"fgcolor_override"	"black"	
 
 		}
@@ -131,8 +129,6 @@
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"DetailsLabel"
@@ -149,8 +145,6 @@
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}

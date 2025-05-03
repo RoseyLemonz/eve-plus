@@ -55,9 +55,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"center"
-		"dulltext"		"0"
 		"font"			"HudFontMediumBold"
-		"brighttext"	"1"
 	}
 	
 	"FightButton"
@@ -102,8 +100,6 @@
 		"enabled"		"1"
 		"labelText"		"1. "
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontsmallBold"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -120,8 +116,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"HudFontSmallestBold"
 		
@@ -152,8 +146,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallbold"
 		
@@ -184,8 +176,6 @@
 		"enabled"		"1"
 		"labelText"		"2. "
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontsmallestBold"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -202,8 +192,6 @@
 		"enabled"			"1"
 		"labelText"			"&1"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"paintborder"		"0"
 		"command"			"jointeam spectate"
 		"font"				""
@@ -280,8 +268,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"MenuMainTitle"
 		"fgcolor"		"HudOffWhite"
 	}
@@ -299,8 +285,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Random"
 		"textAlignment"	"left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"default"
 		"fgcolor"		"White"
@@ -319,8 +303,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontSmall"
 		"fgcolor"		"white"

@@ -89,8 +89,6 @@
 		"enabled"			"1"
 		"labelText"			"%targetname%"
 		"textAlignment"		"North-West"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"fgcolor"			"220 220 220 255"
 		//"fgcolor"			"white"
 	}
@@ -108,8 +106,6 @@
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
 		"textAlignment"		"Left"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"fgcolor"			"150 250 150 255"
 	}
 	"SpectatorGUIHealth"
@@ -259,8 +255,6 @@
 			"enabled"			"1"
 			"labelText"			""
 			"textAlignment"		"North"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 		
 		"TeamcoloredBG"

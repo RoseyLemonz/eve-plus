@@ -507,8 +507,6 @@
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}	
 	"spectator_extras"

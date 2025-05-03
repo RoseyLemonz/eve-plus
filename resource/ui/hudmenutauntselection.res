@@ -104,8 +104,6 @@
 		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"TitleLabelDropshadow"
@@ -123,8 +121,6 @@
 		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"WeaponTauntLabel"
@@ -141,8 +137,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Weapon"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"CancelLabel"
@@ -159,8 +153,6 @@
 		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Taunt_Cancel"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel1"
@@ -229,8 +221,6 @@
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel2"
@@ -299,8 +289,6 @@
 		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel3"
@@ -369,8 +357,6 @@
 		"enabled"		"1"
 		"labelText"		"3"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel4"
@@ -439,8 +425,6 @@
 		"enabled"		"1"
 		"labelText"		"4"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel5"
@@ -509,8 +493,6 @@
 		"enabled"		"1"
 		"labelText"		"5"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel6"
@@ -579,8 +561,6 @@
 		"enabled"		"1"
 		"labelText"		"6"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel7"
@@ -649,8 +629,6 @@
 		"enabled"		"1"
 		"labelText"		"7"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel8"
@@ -719,7 +697,5 @@
 		"enabled"		"1"
 		"labelText"		"8"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

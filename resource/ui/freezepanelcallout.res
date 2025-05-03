@@ -59,7 +59,5 @@
 		"enabled_minmode"	"0"
 		"labelText"		"#FreezePanel_Callout"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

@@ -58,8 +58,6 @@
 		"font"					"HudFontMediumSmallBoldShadow"
 		"font_minmode"			"HudFontGiantBoldShadow"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"1"
 		"fgcolor" 				"255 255 255 255"
 	}
 	
@@ -82,8 +80,6 @@
 		"font"					"HudFontMediumSmallBoldShadow"
 		"font_minmode"			"HudFontGiantBoldShadow"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"fgcolor" 				"255 255 255 255"
 	}
 	
@@ -103,8 +99,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"		"1"
 		"fgcolor_override"	"255 255 255 255"
 	}
 	"ChargeMeter1"
@@ -123,8 +117,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"ChargeMeter2"
 	{	
@@ -141,8 +133,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"pin_to_sibling"	"ChargeMeter1"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -162,8 +152,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"pin_to_sibling"	"ChargeMeter2"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -183,8 +171,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"pin_to_sibling"	"ChargeMeter3"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"

@@ -77,8 +77,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Demolish_Title"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
 	
@@ -96,8 +94,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Demolish_Title"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"0 85 0 255"
 	}
 	
@@ -115,8 +111,6 @@
 		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
 	
