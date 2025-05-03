@@ -66,8 +66,6 @@
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sapper_not_built"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}
 	
@@ -131,8 +129,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 
 		"BuildingPanel"
@@ -158,8 +154,6 @@
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"BuildingProgress"
@@ -174,8 +168,6 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 	
@@ -216,8 +208,6 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 	}

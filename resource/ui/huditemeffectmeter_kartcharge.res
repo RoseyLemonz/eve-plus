@@ -48,8 +48,6 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMediumSmallbold"
 	}
 	"Count_BG"
@@ -80,8 +78,6 @@
 		"enabled"				"0"
 		"labelText"				"#TF_KART"
 		"textAlignment"			"east"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontSmallest"
 	}	
 	"Label_BG"
@@ -115,8 +111,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}
 	
 	"BG"

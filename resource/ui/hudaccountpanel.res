@@ -72,8 +72,6 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"white"
 	}
@@ -90,8 +88,6 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"black"
 	}

@@ -14,8 +14,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"white"
 	}
 	
@@ -49,8 +47,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Already_Built"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"MetalIcon"	
@@ -148,7 +144,5 @@
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

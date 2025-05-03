@@ -37,8 +37,6 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Berzerk"	//"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontSmallestbold"
 	}	
 	"ItemEffectMeterLabelShadow"
@@ -89,8 +87,6 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMedium"
 	}
 	"ItemEffectMeterCountShadow"
@@ -106,8 +102,6 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMedium"
 		"fgcolor"				"black"
 	}

@@ -92,8 +92,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"white"
 	}
 	
@@ -111,8 +109,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"Black"
 	}
 	
@@ -130,8 +126,6 @@
 		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"available_target_1"

@@ -60,8 +60,6 @@
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"west"
 		"allcaps"				"1"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}
 
 	"ItemEffectMeter"

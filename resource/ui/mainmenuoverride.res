@@ -42,8 +42,6 @@
 				"use_proportional_insets" "1"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
@@ -578,8 +576,6 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -672,8 +668,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"actionsignallevel" "2"
 
 			"Command"		"noti_show"
@@ -730,8 +724,6 @@
 			"font"			"HudFontSmallBold"
 			"command"		"questlog"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
@@ -791,8 +783,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
@@ -878,8 +868,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"actionsignallevel"	"2"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1060,8 +1048,6 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
@@ -1090,8 +1076,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"motd_prev"
 			"actionsignallevel"	"2"
 
@@ -1132,8 +1116,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"motd_next"
 			"actionsignallevel"	"2"
 
@@ -1189,8 +1171,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"actionsignallevel"	"2"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1482,8 +1462,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1541,8 +1519,6 @@
 			"proportionaltoparent"	"1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1582,8 +1558,6 @@
 			"proportionaltoparent"	"1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1623,8 +1597,6 @@
 			"proportionaltoparent"	"1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1664,8 +1636,6 @@
 			"proportionaltoparent"	"1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1705,8 +1675,6 @@
 			"proportionaltoparent"	"1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1746,8 +1714,6 @@
 			"proportionaltoparent"	"1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1788,8 +1754,6 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"textinsetx"	"25"
-			"dulltext"		"0"
-			"brighttext"	"0"
 
 			"Command"		"engine open_charinfo"
 
@@ -1853,8 +1817,6 @@
 			"textinsetx"	"25"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 
 			"Command"		"engine replay_reloadbrowser"
 
@@ -1907,8 +1869,6 @@
 		"textinsetx"	"100"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"command" "engine OpenSteamWorkshopDialog"
 
@@ -1967,8 +1927,6 @@
 			"textinsetx"	"100"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2027,8 +1985,6 @@
 			"textinsetx"	"25"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2074,8 +2030,6 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"OpenAchievementsDialog"
 		
@@ -2115,8 +2069,6 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"view_newuser_forums"
 		
@@ -2156,8 +2108,6 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
 		
@@ -2197,8 +2147,6 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"engine bug"
 		
@@ -2237,8 +2185,6 @@
 		"textinsetx"	"100"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"opentf2options"
 
@@ -2279,8 +2225,6 @@
 		"labelText"		"#GameUI_GameMenu_Options"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"OpenOptionsDialog"
 		
@@ -2306,8 +2250,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"Command"		"exitreplayeditor"
 

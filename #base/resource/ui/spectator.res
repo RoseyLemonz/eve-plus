@@ -52,8 +52,6 @@
 		"enabled"			"1"
 		"labelText"			"#TF_Spectator_Spectating"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"HudFontSmallBold"
 		"fgcolor"			"White"
 	}	
@@ -294,8 +292,6 @@
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}	
 	"spectator_extras"

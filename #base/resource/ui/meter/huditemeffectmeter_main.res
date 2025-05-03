@@ -50,8 +50,6 @@
 		"labelText"			"#TF_Ball"
 		"textAlignment"		"west"
 		"allcaps"			"1"
-		"dulltext"			"0"
-		"brighttext"		"1"
 		"fgcolor" 			"255 255 255 255"
 	}
 	"ItemEffectMeter"

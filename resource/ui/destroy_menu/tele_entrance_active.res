@@ -14,8 +14,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Tele_Entrance_360"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"white"
 	}
 	
@@ -98,7 +96,5 @@
 		"enabled"		"1"
 		"labelText"		"3"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

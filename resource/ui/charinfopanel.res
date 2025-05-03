@@ -124,8 +124,6 @@
 		"labelText"		"#Eve_Back"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
