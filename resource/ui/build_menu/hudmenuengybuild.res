@@ -299,7 +299,7 @@
 	"BGShadeBox"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BGshade"
+		"fieldName"		"BGShadeBox"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-10"
