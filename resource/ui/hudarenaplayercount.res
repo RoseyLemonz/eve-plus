@@ -82,7 +82,7 @@
 		"playerimageshadow"
 		{
 			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
+			"fieldName"		"playerimageshadow"
 			"xpos"			"13"
 			"ypos"			"13"
 			"zpos"			"2"

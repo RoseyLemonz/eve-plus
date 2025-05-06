@@ -3,7 +3,7 @@
 	"ItemNameLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"ItemName"
+		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
 		"xpos"			"0"
 		"ypos"			"10"
@@ -50,7 +50,7 @@
 	"NewNumberLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
+		"fieldName"		"NewNumberLabel"
 		"font"			"Default"
 		"fgcolor"		"Black"
 		"xpos"			"12"

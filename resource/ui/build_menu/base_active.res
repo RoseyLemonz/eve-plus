@@ -67,7 +67,7 @@
 	"MetalIconShadow"	
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
+		"fieldName"		"MetalIconShadow"
 		"xpos"			"11"
 		"ypos"			"16"
 		"zpos"			"1"
@@ -99,7 +99,7 @@
 	"CostLabelShadow"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
+		"fieldName"		"CostLabelShadow"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"Black"
 		"xpos"			"26"

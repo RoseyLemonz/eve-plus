@@ -55,7 +55,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"DefaultOutline"
+		"font"			"Default"
 		"xpos"			"26"
 		"ypos"			"10"
 		"zpos"			"1"
