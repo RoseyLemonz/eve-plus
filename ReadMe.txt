@@ -1,12 +1,12 @@
 ------------------------------------
-    e.v.e plus v2.0 (1.1.1970)
+    e.v.e plus v2.0 (7.5.2025)
 -----------------------------------
 
     Created by: RoseyLemonz (http://steamcommunity.com/id/RoseyLemonz)
 
     e.v.e HUD by: Sinders (http://steamcommunity.com/id/sinders)
 
-    Changelog: https://pastebin.com/j8xNMNzk
+    Changelogs: https://pastebin.com/u/RoseyLemonz/1/BQUjnUd5
 
 -----------------------------------
     Additional Credits
@@ -49,7 +49,7 @@
     the TF2 HUD Editor program by CriticalFlaw : https://github.com/CriticalFlaw/TF2HUD.Editor
 
     The program has a simple GUI for applying, changing and removing customizations. The e.v.e Plus
-    preset should be in the program when this release is published, or a couple days after.
+    preset should be in the program when this release is published, or a couple days after, hopefully.
 
 -----------------------------------
     Crosshairs / Hitmarkers
