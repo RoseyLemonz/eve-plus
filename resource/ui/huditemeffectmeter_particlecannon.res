@@ -1,6 +1,6 @@
 #base "meter/huditemeffectmeter_gordbot.res"
 
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"resource/ui/huditemeffectmeter_particlecannon.res"
 {
 	"ItemEffectMeterLabel"
 	{

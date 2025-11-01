@@ -1,6 +1,6 @@
 #base "meter/huditemeffectmeter_secondary.res"
 
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"resource/ui/huditemeffectmeter_sodapopper.res"
 {
 	"ChargeDetail_panel"
 	{

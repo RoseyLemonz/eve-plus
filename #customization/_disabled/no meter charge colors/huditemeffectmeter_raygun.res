@@ -1,6 +1,6 @@
 #base "meter/huditemeffectmeter_gordbot.res"
 
-"Resource/UI/HudItemEffectMeter_Raygun.res"
+"resource/ui/huditemeffectmeter_raygun.res"
 {
 	"ChargeColor_25"
 	{

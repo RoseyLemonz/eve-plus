@@ -1,5 +1,5 @@
 
-"Resource/HudLayout.res"
+"resource/hudlayout.res"
 {
 	HudDemomanCharge
 	{

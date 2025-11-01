@@ -1,5 +1,5 @@
 #base "meter/huditemeffectmeter_primary.res"
-"Resource/UI/HudItemEffectMeter_Spyknife.res"
+"resource/ui/huditemeffectmeter_spyknife.res"
 {
 	"ChargeColor_25"
 	{

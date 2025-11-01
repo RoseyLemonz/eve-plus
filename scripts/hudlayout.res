@@ -3,7 +3,7 @@
 
 "#base"	"../#base/scripts/hudlayout.res"
 
-"Resource/HudLayout.res"
+"resource/hudlayout.res"
 {
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL

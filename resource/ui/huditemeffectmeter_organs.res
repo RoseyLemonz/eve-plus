@@ -1,6 +1,6 @@
 #base "meter/huditemeffectmeter_kills.res"
 
-"Resource/UI/HudItemEffectMeter_Organs.res"
+"resource/ui/huditemeffectmeter_organs.res"
 {
 	HudItemEffectMeter
 	{
