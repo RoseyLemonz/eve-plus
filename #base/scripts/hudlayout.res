@@ -307,17 +307,31 @@
 		}
 	}
 	
+	BuildingStatus_Anchor
+	{
+		"controlName"			"Panel"
+		"fieldName"				"BuildingStatus_Anchor"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"-16"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
+	}
+	
 	BuildingStatus_Spy
 	{
 		"fieldName"				"BuildingStatus_Spy"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"-16"
+		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"640"
 		"tall"					"480"
 		
 		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"		"BuildingStatus_Anchor"
 	}
 	
 	BuildingStatus_Engineer
@@ -325,13 +339,15 @@
 		"fieldName"				"BuildingStatus_Engineer"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"-18"
+		"xpos"					"-2"
 		"zpos"					"10"
 		"ypos"					"0"
 		"wide"					"640"
 		"tall"					"480"
 		
 		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"		"BuildingStatus_Anchor"
 	}
 	
 	CurrencyStatusPanel

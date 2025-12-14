@@ -1,3 +1,5 @@
+#base "../../#customization/chat top left corner/basechat.res"
+
 "resource/ui/basechat.res"
 {
 	"HudChat"
@@ -7,7 +9,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"10"
-		"ypos"					"r200"
 		"wide"					"290"
 		"tall"					"108"
 		"PaintBackgroundType"	"2"

@@ -133,3 +133,6 @@
         disables an alternative scoreboard in minmode
         * 32p scoreboard (with minmode) : allows you to see up to 32 players on the scoreboard and 
         you keep an alternative version in minmode
+		
+	* chat top left corner :
+	moves the chat to the top left corner and lowers the engineer and spy building status
